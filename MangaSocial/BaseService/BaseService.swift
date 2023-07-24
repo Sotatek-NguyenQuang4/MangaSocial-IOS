@@ -1,42 +1,44 @@
 //
-//  BaseAPI.swift
-//  MangaSocial
+//  BaseService.swift
+//  Probit
+//
+//  Created by Beacon on 31/08/2022.
 //
 
 import Foundation
 import Alamofire
 
-class BaseAPI {
-    static let share = BaseAPI()
-    let baseURL: String = "https://staging.probitglobal.com/"
-
-    func upload<M: Decodable>(urlString: String,
-                              imageData: Data,
+class BaseAPI<T: Configuration> {
+    
+    func upload<M: Decodable>(configuration: T,
                               name: String,
-                              parameters: [String: String] = [:],
                               responseType: M.Type,
                               completionHandler: @escaping (Result<M, ServiceError>) -> Void) {
-        guard let host = URLComponents(string: baseURL + urlString) else {
+        guard let imageData = configuration.data else {
+            completionHandler(.failure(ServiceError.notFoundData))
+            return
+        }
+        let parameters = generateParams(task: configuration.task)
+        let url = configuration.baseURL + configuration.path
+        let headers = HTTPHeaders(configuration.headers ?? [:])
+        let method = Alamofire.HTTPMethod(rawValue: configuration.method.rawValue)
+        
+        guard let host = URLComponents(string: url) else {
             completionHandler(.failure(.urlError))
             return
         }
-        
-        let headers: HTTPHeaders = .init([
-            "Content-Type": "application/json; charset=UTF-8",
-            "accept": "application/json"
-        ])
-        
         AF.upload(multipartFormData: { multipart in
             multipart.append(imageData,
                              withName: name,
                              fileName: "\(name).jpg",
                              mimeType: "image/jpeg")
-            for (key, value) in parameters {
-                multipart.append(value.data(using: .utf8) ?? Data(), withName: key)
+            for (key, value) in parameters.0 {
+                guard let val = value as? String else { return }
+                multipart.append(val.data(using: .utf8) ?? Data(), withName: key)
             }
-        }, to: host,
+        },to: host,
                   usingThreshold: UInt64(),
-                  method: .post,
+                  method: method,
                   headers: headers)
         .uploadProgress(queue: .main, closure: { progress in
             print("Upload Progress: \(progress.fractionCompleted)")
@@ -45,6 +47,17 @@ class BaseAPI {
                 completionHandler(.failure(ServiceError.notFoundData))
                 return
             }
+
+            guard let httpResponse = response.response else {
+                completionHandler(.failure(ServiceError.notFoundData))
+                return
+            }
+            
+            guard self.isSuccess(httpResponse.statusCode) else {
+                completionHandler(.failure(.somethinkWrong))
+                return
+            }
+            
             do {
                 let decoder = JSONDecoder()
                 let responseObj = try decoder.decode(M.self, from: existData)
@@ -57,35 +70,31 @@ class BaseAPI {
         }
     }
     
-    func fetchData<M: Decodable>(urlString: String,
-                                 method: HTTPMethod = .get,
-                                 parameters: [String: Any] = [:],
-                                 headers: [String: String] = [:],
+    func fetchData<M: Decodable>(configuration: T,
                                  responseType: M.Type,
                                  completionHandler: @escaping (Result<M, ServiceError>) -> Void) {
         
-        guard var components = URLComponents(string: baseURL + urlString) else {
+        let parameters = generateParams(task: configuration.task)
+        let url = configuration.baseURL + configuration.path.escape()
+        guard var components = URLComponents(string: url) else {
             completionHandler(.failure(.urlError))
             return
         }
-        
-        if method == HTTPMethod.get {
-            components.queryItems = parameters.map { (key, value) in
+        if configuration.method == HTTPMethod.get {
+            components.queryItems = parameters.0.map { (key, value) in
                 URLQueryItem(name: key, value: "\(value)")
             }
             components.percentEncodedQuery = components.percentEncodedQuery?.replacingOccurrences(of: "+", with: "%2B")
         }
-        
         guard let url = components.url else {
             completionHandler(.failure(.urlError))
             return
         }
-        
         // Create request
-        let request = self.generateRequest(url: url, method: method.rawValue, headers: headers)
+        let request = self.generateRequest(url: url, method: configuration.method.rawValue)
         
-        if method == HTTPMethod.post {
-            let postString = self.getPostString(params: parameters)
+        if configuration.method == HTTPMethod.post {
+            let postString = self.getPostString(params: parameters.0)
             request.httpBody = postString.data(using: .utf8)
         }
         
@@ -97,7 +106,6 @@ class BaseAPI {
                     completionHandler(.failure(ServiceError.init(issueCode: .initValue(value: errorMessage))))
                     return
                 }
-                
                 guard let existData = data, let httpResponse = response as? HTTPURLResponse else {
                     completionHandler(.failure(ServiceError.notFoundData))
                     return
@@ -112,11 +120,15 @@ class BaseAPI {
                     completionHandler(.failure(.somethinkWrong))
                     return
                 }
+                
                 do {
                     let decoder = JSONDecoder()
                     let responseObj = try decoder.decode(M.self, from: existData)
                     completionHandler(.success(responseObj))
                 } catch {
+                    print("\n----- Parse Model Error: \n", error)
+                    print("\n ----- JSOM", existData.base64EncodedString())
+                    print("\n----- End:")
                     completionHandler(.failure(.parseError))
                 }
             }
@@ -125,7 +137,28 @@ class BaseAPI {
         dataTask.resume()
     }
     
-    func getPostString(params: [String: Any]) -> String {
+    private func generateRequest(url: URL, method: String) -> NSMutableURLRequest {
+        let request = NSMutableURLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30.0)
+        request.httpMethod = method
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/json", forHTTPHeaderField: "accept")
+        
+        if let token = AppConstant.accessToken {
+            request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+        }
+        return request
+    }
+    
+    private func generateParams(task: Task) -> ([String: Any], ParameterEncoding) {
+        switch task {
+        case .requestPlain:
+            return ([:], URLEncoding.default)
+        case .requestParameters(parameters: let parameters, encoding: let encoding):
+            return (parameters, encoding)
+        }
+    }
+    
+    private func getPostString(params: [String: Any]) -> String {
         var data = [String]()
         for(key, value) in params {
             data.append(key + "=\(value)")
@@ -133,23 +166,12 @@ class BaseAPI {
         return data.map { String($0) }.joined(separator: "&")
     }
     
-    func isSuccess(_ code: Int) -> Bool {
+    private func isSuccess(_ code: Int) -> Bool {
         switch code {
         case 200...304:
             return true
         default:
             return false
         }
-    }
-    
-    private func generateRequest(url: URL, method: String, headers: [String: String] = [:]) -> NSMutableURLRequest {
-        let request = NSMutableURLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30.0)
-        request.httpMethod = method
-        request.setValue("application/x-www-form-urlencoded charset=utf-8", forHTTPHeaderField: "Content-Type")
-        request.setValue("application/json", forHTTPHeaderField: "accept")
-        headers.forEach {
-            request.setValue($0.value, forHTTPHeaderField: $0.key)
-        }
-        return request
     }
 }
