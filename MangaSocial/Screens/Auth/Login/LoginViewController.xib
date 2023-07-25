@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="emailTextField" destination="9k1-fv-hjz" id="5yx-ao-FdN"/>
                 <outlet property="forgotPasswordButton" destination="4x8-lA-5hL" id="kM9-hq-OPC"/>
+                <outlet property="loginButton" destination="7HO-0d-SAw" id="Nib-Lb-euQ"/>
                 <outlet property="passwordTextField" destination="NMV-qe-RGr" id="TAD-FI-tBh"/>
                 <outlet property="signupButton" destination="EjM-w0-wDe" id="1zZ-uh-u1W"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -52,7 +53,7 @@
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can use your app or account to login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkV-WI-gdl">
                             <rect key="frame" x="0.0" y="65.666666666666671" width="363" height="16.333333333333329"/>
-                            <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="14"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -109,18 +110,24 @@
                         </view>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9k1-fv-hjz">
                             <rect key="frame" x="0.0" y="165" width="363" height="40"/>
-                            <color key="backgroundColor" name="ColerViewTextField"/>
+                            <color key="backgroundColor" name="main.input.bg"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="QZP-nJ-SLZ"/>
                             </constraints>
-                            <color key="textColor" name="colerTextPass"/>
+                            <color key="textColor" name="main.input.text"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="tr_cornerRadius">
                                     <real key="value" value="15"/>
                                 </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                    <color key="value" name="main.input.text"/>
+                                </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="changeTextEmail:" destination="-1" eventType="editingChanged" id="wAf-ff-Bwc"/>
+                            </connections>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hvj-Mx-axI">
                             <rect key="frame" x="0.0" y="205" width="363" height="8"/>
@@ -129,20 +136,26 @@
                                 <constraint firstAttribute="height" constant="8" id="lok-nu-1cZ"/>
                             </constraints>
                         </view>
-                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NMV-qe-RGr">
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NMV-qe-RGr">
                             <rect key="frame" x="0.0" y="213" width="363" height="40"/>
-                            <color key="backgroundColor" name="ColerViewTextField"/>
+                            <color key="backgroundColor" name="main.input.bg"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="SXe-X4-gi1"/>
                             </constraints>
-                            <color key="textColor" name="colerTextPass"/>
+                            <color key="textColor" name="main.input.text"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="tr_cornerRadius">
-                                    <real key="value" value="10"/>
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                    <color key="value" name="main.input.text"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="changeTextPassword:" destination="-1" eventType="editingChanged" id="ZMl-wv-ECa"/>
+                            </connections>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r78-7n-R7x">
                             <rect key="frame" x="0.0" y="253" width="363" height="8"/>
@@ -241,11 +254,11 @@
     </objects>
     <resources>
         <image name="img.login.bg" width="360" height="800"/>
-        <namedColor name="ColerViewTextField">
-            <color red="0.20800000429153442" green="0.20000000298023224" blue="0.20399999618530273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="main.input.bg">
+            <color red="0.20784313725490197" green="0.20000000000000001" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="colerTextPass">
-            <color red="0.49000000953674316" green="0.48600000143051147" blue="0.48600000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="main.input.text">
+            <color red="0.49019607843137253" green="0.48627450980392156" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

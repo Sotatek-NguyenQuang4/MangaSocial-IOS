@@ -63,16 +63,19 @@
                         </view>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9mf-dB-1Mk">
                             <rect key="frame" x="0.0" y="146" width="363" height="40"/>
-                            <color key="backgroundColor" name="ColerViewTextField"/>
+                            <color key="backgroundColor" name="main.input.bg"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="iJI-yo-7pl"/>
                             </constraints>
-                            <color key="textColor" name="colerTextPass"/>
+                            <color key="textColor" name="main.input.text"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="tr_cornerRadius">
                                     <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                    <color key="value" name="main.input.text"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </textField>
@@ -85,16 +88,19 @@
                         </view>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EaQ-Zh-VhZ">
                             <rect key="frame" x="0.0" y="194" width="363" height="40"/>
-                            <color key="backgroundColor" name="ColerViewTextField"/>
+                            <color key="backgroundColor" name="main.input.bg"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="dgH-Sl-PLh"/>
                             </constraints>
-                            <color key="textColor" name="colerTextPass"/>
+                            <color key="textColor" name="main.input.text"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="tr_cornerRadius">
                                     <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                    <color key="value" name="main.input.text"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </textField>
@@ -107,16 +113,19 @@
                         </view>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uMn-YY-ntE">
                             <rect key="frame" x="0.0" y="242" width="363" height="40"/>
-                            <color key="backgroundColor" name="ColerViewTextField"/>
+                            <color key="backgroundColor" name="main.input.bg"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="BtC-bi-Qub"/>
                             </constraints>
-                            <color key="textColor" name="colerTextPass"/>
+                            <color key="textColor" name="main.input.text"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="tr_cornerRadius">
                                     <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                    <color key="value" name="main.input.text"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </textField>
@@ -234,14 +243,14 @@
     </objects>
     <resources>
         <image name="img.login.bg" width="360" height="800"/>
-        <namedColor name="ColerViewTextField">
-            <color red="0.20800000429153442" green="0.20000000298023224" blue="0.20399999618530273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="Color">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="colerTextPass">
-            <color red="0.49000000953674316" green="0.48600000143051147" blue="0.48600000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="main.input.bg">
+            <color red="0.20784313725490197" green="0.20000000000000001" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="main.input.text">
+            <color red="0.49019607843137253" green="0.48627450980392156" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="mainText">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

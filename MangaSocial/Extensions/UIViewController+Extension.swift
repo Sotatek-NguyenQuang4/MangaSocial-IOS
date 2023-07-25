@@ -71,12 +71,12 @@ extension UIViewController {
     }
     
     internal var customeIndicator: LoadingView? {
-        guard let tabbarController = self.tabBarController else { return nil }
+        guard let tabbarController = UIApplication.shared.mainKeyWindow?.rootViewController else { return nil }
         let huds = tabbarController.view.subviews.reversed().compactMap { $0 as? LoadingView }
         return huds.first { $0.tag == kCustomeHUDTag }
     }
     
-    func showLoginIndicator(with title: String = "") {
+    func showCustomeIndicator(with title: String = "") {
         DispatchQueue.main.async { [weak self] in
             guard let sself = self, sself.customeIndicator == nil,
                   let tabbarController = UIApplication.shared.mainKeyWindow?.rootViewController else { return }
@@ -86,15 +86,15 @@ extension UIViewController {
         }
     }
     
-    func showCustomeIndicator(with title: String = "") {
-        DispatchQueue.main.async { [weak self] in
-            guard let sself = self, sself.customeIndicator == nil,
-                  let tabbarController = self?.tabBarController else { return }
-            let hud = LoadingView(title: title)
-            hud.showAdded(to: tabbarController.view)
-            hud.tag = kCustomeHUDTag
-        }
-    }
+//    func showCustomeIndicator(with title: String = "") {
+//        DispatchQueue.main.async { [weak self] in
+//            guard let sself = self, sself.customeIndicator == nil,
+//                  let tabbarController = self?.tabBarController else { return }
+//            let hud = LoadingView(title: title)
+//            hud.showAdded(to: tabbarController.view)
+//            hud.tag = kCustomeHUDTag
+//        }
+//    }
     
     func hideCustomeIndicator(completion: (() -> Void)? = nil) {
         DispatchQueue.main.async {

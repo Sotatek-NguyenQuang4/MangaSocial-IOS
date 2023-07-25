@@ -9,7 +9,7 @@ import Foundation
 
 struct LoginModel: Codable {
     let account: Account?
-    let ketqua: String?
+    let message: String
 }
 
 struct Account: Codable {

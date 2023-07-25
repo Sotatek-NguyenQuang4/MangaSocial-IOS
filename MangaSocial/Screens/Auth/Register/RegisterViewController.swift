@@ -8,7 +8,7 @@
 import UIKit
 import Toast_Swift
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: BaseViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -19,13 +19,12 @@ class RegisterViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = true
         
         emailTextField.addPadding(.left(15))
-        emailTextField.attributedPlaceholder = NSAttributedString(string: "Enteryour email" , attributes: [NSAttributedString.Key.foregroundColor: UIColor.init(hexString: "#7D7C7C")])
         passwordTextField.addPadding(.left(15))
-        passwordTextField.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.init(hexString: "#7D7C7C")])
         confirmPasswordTextField.addPadding(.left(15))
-        confirmPasswordTextField.attributedPlaceholder = NSAttributedString(string: "Confirm Password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.init(hexString: "#7D7C7C")])
         passwordTextField.enablePasswordToggle()
         confirmPasswordTextField.enablePasswordToggle()
+        
+        hideKeyboardWhenTappedAround()
     }
     
     @IBAction func actionLogin(_ sender: Any) {

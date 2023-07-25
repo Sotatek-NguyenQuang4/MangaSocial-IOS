@@ -12,8 +12,7 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func logoutAction(_ sender: Any) {
-        AppConstant.accessToken = nil
-        AppConstant.userId = nil
+        AppConstant.logout()
         self.navigationController?.setRootViewController(viewController: LoginViewController(),
                                                          controllerType: LoginViewController.self)
     }

@@ -16,20 +16,35 @@ struct AppConstant {
     
     static var accessToken: String? {
         get { UserDefaults.standard.value(forKey: "access-token") as? String }
-        set { UserDefaults.standard.setValue(newValue, forKey: "access-token") }
+        
+        set {
+            if newValue == nil {
+                UserDefaults.standard.removeObject(forKey: "access-token")
+                UserDefaults.standard.synchronize()
+            } else {
+                UserDefaults.standard.setValue(newValue, forKey: "access-token")
+            }
+        }
     }
     
     static var userId: String? {
         get { UserDefaults.standard.value(forKey: "userId") as? String }
-        set { UserDefaults.standard.setValue(newValue, forKey: "userId") }
+        set {
+            if newValue == nil {
+                UserDefaults.standard.removeObject(forKey: "userId")
+                UserDefaults.standard.synchronize()
+            } else {
+                UserDefaults.standard.setValue(newValue, forKey: "userId")
+            }
+        }
     }
 }
 
 extension AppConstant {
     
     static func logout() {
-        accessToken = ""
-        userId = ""
+        accessToken = nil
+        userId = nil
     }
     
     static func saveUser(model: Account) {
