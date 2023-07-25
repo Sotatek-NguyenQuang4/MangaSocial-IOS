@@ -104,7 +104,7 @@ struct _R {
     var opacityBg: RswiftResources.ColorResource { .init(name: "opacityBg", path: [], bundle: bundle) }
   }
 
-  /// This `_R.image` struct is generated, and contains static references to 5 images.
+  /// This `_R.image` struct is generated, and contains static references to 7 images.
   struct image {
     let bundle: Foundation.Bundle
 
@@ -119,6 +119,12 @@ struct _R {
 
     /// Image `ico.tabbar.profile`.
     var icoTabbarProfile: RswiftResources.ImageResource { .init(name: "ico.tabbar.profile", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `icon.Hidden.password`.
+    var iconHiddenPassword: RswiftResources.ImageResource { .init(name: "icon.Hidden.password", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `icon.See.Pass`.
+    var iconSeePass: RswiftResources.ImageResource { .init(name: "icon.See.Pass", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `img.login.bg`.
     var imgLoginBg: RswiftResources.ImageResource { .init(name: "img.login.bg", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
@@ -245,7 +251,7 @@ struct _R {
     var interThinTtf: RswiftResources.FileResource { .init(name: "Inter-Thin", pathExtension: "ttf", bundle: bundle, locale: LocaleReference.none) }
   }
 
-  /// This `_R.nib` struct is generated, and contains static references to 4 nibs.
+  /// This `_R.nib` struct is generated, and contains static references to 6 nibs.
   struct nib {
     let bundle: Foundation.Bundle
 
@@ -255,14 +261,28 @@ struct _R {
     /// Nib `HomeViewController`.
     var homeViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "HomeViewController", bundle: bundle) }
 
+    /// Nib `LoginViewController`.
+    var loginViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "LoginViewController", bundle: bundle) }
+
     /// Nib `NewsViewController`.
     var newsViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "NewsViewController", bundle: bundle) }
 
     /// Nib `ProfileViewController`.
     var profileViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "ProfileViewController", bundle: bundle) }
 
+    /// Nib `RegisterViewController`.
+    var registerViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "RegisterViewController", bundle: bundle) }
+
     func validate() throws {
       if UIKit.UIColor(named: "mainBg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainBg' is used in nib 'HomeViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "img.login.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'img.login.bg' is used in nib 'LoginViewController', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "ColerViewTextField", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'ColerViewTextField' is used in nib 'LoginViewController', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "colerTextPass", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'colerTextPass' is used in nib 'LoginViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "img.login.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'img.login.bg' is used in nib 'RegisterViewController', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "ColerViewTextField", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'ColerViewTextField' is used in nib 'RegisterViewController', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "Color", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'Color' is used in nib 'RegisterViewController', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "colerTextPass", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'colerTextPass' is used in nib 'RegisterViewController', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "mainText", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainText' is used in nib 'RegisterViewController', but couldn't be loaded.") }
     }
   }
 
