@@ -5,6 +5,9 @@
 
 import UIKit
 
+private let kHUDTag = 1234
+private let kCustomeHUDTag = 1235
+
 extension UIViewController {
     
     func presentSimpleAlert(title: String?,
@@ -66,7 +69,37 @@ extension UIViewController {
         alertViewController.addAction(okAction)
         self.present(alertViewController, animated: true, completion: nil)
     }
+    
+    internal var customeIndicator: LoadingView? {
+        guard let tabbarController = self.tabBarController else { return nil }
+        let huds = tabbarController.view.subviews.reversed().compactMap { $0 as? LoadingView }
+        return huds.first { $0.tag == kCustomeHUDTag }
+    }
+    
+    func showCustomeIndicator(with title: String = "") {
+        DispatchQueue.main.async { [weak self] in
+            guard let sself = self, sself.customeIndicator == nil,
+                  let tabbarController = self?.tabBarController else { return }
+            let hud = LoadingView(title: title)
+            hud.showAdded(to: tabbarController.view)
+            hud.tag = kCustomeHUDTag
+        }
+    }
+    
+    func hideCustomeIndicator(completion: (() -> Void)? = nil) {
+        DispatchQueue.main.async {
+            self.customeIndicator?.hide(completion: completion)
+        }
+    }
+    
+    func hideIndicatorWhenError(error: Error) {
+        hideCustomeIndicator {
+            self.presentSimpleAlert(title: "MangaSocial",
+                                    message: error.localizedDescription)
+        }
+    }
 }
+
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))

@@ -26,6 +26,7 @@
 		3D72B8EF2A6E89AC00164035 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D72B8E62A6E89AC00164035 /* Inter-ExtraLight.ttf */; };
 		3D72B8F02A6E89AC00164035 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D72B8E72A6E89AC00164035 /* Inter-Thin.ttf */; };
 		3D72B8FC2A6E9FEE00164035 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72B8FB2A6E9FEE00164035 /* R.generated.swift */; };
+		3D996EE92A6FBB0D002BE4ED /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D996EE82A6FBB0D002BE4ED /* LoadingView.swift */; };
 		3DBF8AA22A6E334100C2808B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF8AA12A6E334100C2808B /* AppDelegate.swift */; };
 		3DBF8AA42A6E334100C2808B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF8AA32A6E334100C2808B /* SceneDelegate.swift */; };
 		3DBF8AAB2A6E334200C2808B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBF8AAA2A6E334200C2808B /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		3DE959782A6F6BAC003D6BD9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE959772A6F6BAC003D6BD9 /* MainTabBarController.swift */; };
 		3DE9597B2A6F768C003D6BD9 /* TabbarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9597A2A6F768C003D6BD9 /* TabbarItemView.swift */; };
 		3DE9597D2A6F7ECC003D6BD9 /* TabbarItemActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9597C2A6F7ECC003D6BD9 /* TabbarItemActiveView.swift */; };
+		3DE9597F2A6F969B003D6BD9 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9597E2A6F969B003D6BD9 /* NSAttributedString+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,7 @@
 		3D72B8E62A6E89AC00164035 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		3D72B8E72A6E89AC00164035 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 		3D72B8FB2A6E9FEE00164035 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		3D996EE82A6FBB0D002BE4ED /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		3DBF8A9E2A6E334100C2808B /* MangaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBF8AA12A6E334100C2808B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DBF8AA32A6E334100C2808B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +117,7 @@
 		3DE959772A6F6BAC003D6BD9 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		3DE9597A2A6F768C003D6BD9 /* TabbarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItemView.swift; sourceTree = "<group>"; };
 		3DE9597C2A6F7ECC003D6BD9 /* TabbarItemActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItemActiveView.swift; sourceTree = "<group>"; };
+		3DE9597E2A6F969B003D6BD9 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		47C337F251264BD642A786F4 /* Pods-MangaSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaSocial.release.xcconfig"; path = "Target Support Files/Pods-MangaSocial/Pods-MangaSocial.release.xcconfig"; sourceTree = "<group>"; };
 		8612A24FD9D5D5B809FC6CF4 /* Pods-MangaSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaSocial.debug.xcconfig"; path = "Target Support Files/Pods-MangaSocial/Pods-MangaSocial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +137,7 @@
 		3D72B8CE2A6E801F00164035 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3D996EE72A6FBAFC002BE4ED /* LoadingView */,
 				3D72B8D12A6E820E00164035 /* BaseViewController.swift */,
 				3DC1E98D2A6EC657009441B6 /* Constant */,
 				3D72B8D32A6E82FD00164035 /* LayoutSpec */,
@@ -188,6 +193,14 @@
 				3D72B8E72A6E89AC00164035 /* Inter-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3D996EE72A6FBAFC002BE4ED /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				3D996EE82A6FBB0D002BE4ED /* LoadingView.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		3DBF8A952A6E334100C2808B = {
@@ -259,6 +272,7 @@
 				3D72B8D82A6E847100164035 /* UINavigation+Extension.swift */,
 				3D72B8CA2A6E7F7100164035 /* UICollectionView+Extension.swift */,
 				3DBF8AC62A6E399700C2808B /* UIViewController+Extension.swift */,
+				3DE9597E2A6F969B003D6BD9 /* NSAttributedString+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -522,10 +536,12 @@
 				3DE9597B2A6F768C003D6BD9 /* TabbarItemView.swift in Sources */,
 				3DE959782A6F6BAC003D6BD9 /* MainTabBarController.swift in Sources */,
 				3DC1E98B2A6EC1C0009441B6 /* Enviroment.swift in Sources */,
+				3D996EE92A6FBB0D002BE4ED /* LoadingView.swift in Sources */,
 				3DE9596B2A6F6B1A003D6BD9 /* NewsViewController.swift in Sources */,
 				3DBF8AC72A6E399700C2808B /* UIViewController+Extension.swift in Sources */,
 				3DBF8AC12A6E36CC00C2808B /* UIColor+Extension.swift in Sources */,
 				3DE959732A6F6B45003D6BD9 /* ProfileViewController.swift in Sources */,
+				3DE9597F2A6F969B003D6BD9 /* NSAttributedString+Extension.swift in Sources */,
 				3DBF8ABF2A6E364E00C2808B /* UIView+Extension.swift in Sources */,
 				3DE9597D2A6F7ECC003D6BD9 /* TabbarItemActiveView.swift in Sources */,
 				3D72B8D22A6E820E00164035 /* BaseViewController.swift in Sources */,
