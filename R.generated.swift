@@ -12,6 +12,7 @@ let R = _R(bundle: Bundle(for: BundleFinder.self))
 
 struct _R {
   let bundle: Foundation.Bundle
+  var string: string { .init(bundle: bundle, preferredLanguages: nil, locale: nil) }
   var color: color { .init(bundle: bundle) }
   var image: image { .init(bundle: bundle) }
   var info: info { .init(bundle: bundle) }
@@ -20,6 +21,15 @@ struct _R {
   var nib: nib { .init(bundle: bundle) }
   var storyboard: storyboard { .init(bundle: bundle) }
 
+  func string(bundle: Foundation.Bundle) -> string {
+    .init(bundle: bundle, preferredLanguages: nil, locale: nil)
+  }
+  func string(locale: Foundation.Locale) -> string {
+    .init(bundle: bundle, preferredLanguages: nil, locale: locale)
+  }
+  func string(preferredLanguages: [String], locale: Locale? = nil) -> string {
+    .init(bundle: bundle, preferredLanguages: preferredLanguages, locale: locale)
+  }
   func color(bundle: Foundation.Bundle) -> color {
     .init(bundle: bundle)
   }
@@ -51,26 +61,64 @@ struct _R {
     let developmentRegion = "en"
   }
 
-  /// This `_R.color` struct is generated, and contains static references to 4 colors.
+  /// This `_R.string` struct is generated, and contains static references to 1 localization tables.
+  struct string {
+    let bundle: Foundation.Bundle
+    let preferredLanguages: [String]?
+    let locale: Locale?
+    var home: home { .init(source: .init(bundle: bundle, tableName: "Home", preferredLanguages: preferredLanguages, locale: locale)) }
+
+    func home(preferredLanguages: [String]) -> home {
+      .init(source: .init(bundle: bundle, tableName: "Home", preferredLanguages: preferredLanguages, locale: locale))
+    }
+
+
+    /// This `_R.string.home` struct is generated, and contains static references to 1 localization keys.
+    struct home {
+      let source: RswiftResources.StringResource.Source
+
+      /// Value: Home1
+      ///
+      /// Key: title
+      var title: RswiftResources.StringResource { .init(key: "title", tableName: "Home", source: source, developmentValue: nil, comment: nil) }
+    }
+  }
+
+  /// This `_R.color` struct is generated, and contains static references to 5 colors.
   struct color {
     let bundle: Foundation.Bundle
 
     /// Color `AccentColor`.
     var accentColor: RswiftResources.ColorResource { .init(name: "AccentColor", path: [], bundle: bundle) }
 
-    /// Color `Color`.
-    var color: RswiftResources.ColorResource { .init(name: "Color", path: [], bundle: bundle) }
+    /// Color `mainBg`.
+    var mainBg: RswiftResources.ColorResource { .init(name: "mainBg", path: [], bundle: bundle) }
 
     /// Color `mainOrange`.
     var mainOrange: RswiftResources.ColorResource { .init(name: "mainOrange", path: [], bundle: bundle) }
 
     /// Color `mainText`.
     var mainText: RswiftResources.ColorResource { .init(name: "mainText", path: [], bundle: bundle) }
+
+    /// Color `opacityBg`.
+    var opacityBg: RswiftResources.ColorResource { .init(name: "opacityBg", path: [], bundle: bundle) }
   }
 
-  /// This `_R.image` struct is generated, and contains static references to 1 images.
+  /// This `_R.image` struct is generated, and contains static references to 5 images.
   struct image {
     let bundle: Foundation.Bundle
+
+    /// Image `ico.tabbar.genres`.
+    var icoTabbarGenres: RswiftResources.ImageResource { .init(name: "ico.tabbar.genres", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `ico.tabbar.home`.
+    var icoTabbarHome: RswiftResources.ImageResource { .init(name: "ico.tabbar.home", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `ico.tabbar.news`.
+    var icoTabbarNews: RswiftResources.ImageResource { .init(name: "ico.tabbar.news", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `ico.tabbar.profile`.
+    var icoTabbarProfile: RswiftResources.ImageResource { .init(name: "ico.tabbar.profile", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `img.login.bg`.
     var imgLoginBg: RswiftResources.ImageResource { .init(name: "img.login.bg", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
@@ -197,15 +245,24 @@ struct _R {
     var interThinTtf: RswiftResources.FileResource { .init(name: "Inter-Thin", pathExtension: "ttf", bundle: bundle, locale: LocaleReference.none) }
   }
 
-  /// This `_R.nib` struct is generated, and contains static references to 1 nibs.
+  /// This `_R.nib` struct is generated, and contains static references to 4 nibs.
   struct nib {
     let bundle: Foundation.Bundle
+
+    /// Nib `GenresViewController`.
+    var genresViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "GenresViewController", bundle: bundle) }
 
     /// Nib `HomeViewController`.
     var homeViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "HomeViewController", bundle: bundle) }
 
-    func validate() throws {
+    /// Nib `NewsViewController`.
+    var newsViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "NewsViewController", bundle: bundle) }
 
+    /// Nib `ProfileViewController`.
+    var profileViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "ProfileViewController", bundle: bundle) }
+
+    func validate() throws {
+      if UIKit.UIColor(named: "mainBg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainBg' is used in nib 'HomeViewController', but couldn't be loaded.") }
     }
   }
 

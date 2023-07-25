@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0646B3F36DCBC8093B11794A /* Pods_MangaSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3DE6646EF034F263F47627 /* Pods_MangaSocial.framework */; };
+		3D062F0D2A6FCAC100B11FA5 /* Home.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D062F0C2A6FCAC100B11FA5 /* Home.strings */; };
 		3D72B8C92A6E7EDE00164035 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72B8C82A6E7EDE00164035 /* UITableView+Extension.swift */; };
 		3D72B8CB2A6E7F7100164035 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72B8CA2A6E7F7100164035 /* UICollectionView+Extension.swift */; };
 		3D72B8CD2A6E7FC700164035 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72B8CC2A6E7FC700164035 /* UIFont+Extension.swift */; };
@@ -64,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		0F3DE6646EF034F263F47627 /* Pods_MangaSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D062F0C2A6FCAC100B11FA5 /* Home.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Home.strings; sourceTree = "<group>"; };
 		3D72B8C82A6E7EDE00164035 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		3D72B8CA2A6E7F7100164035 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		3D72B8CC2A6E7FC700164035 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			children = (
 				3DBF8AB72A6E339900C2808B /* HomeViewController.swift */,
 				3DBF8AB82A6E339900C2808B /* HomeViewController.xib */,
+				3D062F0C2A6FCAC100B11FA5 /* Home.strings */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				3D72B8E92A6E89AC00164035 /* Inter-Light.ttf in Resources */,
 				3DBF8ABA2A6E339900C2808B /* HomeViewController.xib in Resources */,
 				3D72B8ED2A6E89AC00164035 /* Inter-SemiBold.ttf in Resources */,
+				3D062F0D2A6FCAC100B11FA5 /* Home.strings in Resources */,
 				3D72B8EA2A6E89AC00164035 /* Inter-Black.ttf in Resources */,
 				3D72B8F02A6E89AC00164035 /* Inter-Thin.ttf in Resources */,
 			);
