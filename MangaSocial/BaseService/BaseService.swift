@@ -28,9 +28,10 @@ class BaseAPI<T: Configuration> {
             return
         }
         AF.upload(multipartFormData: { multipart in
+            let timestamp = Date().timeIntervalSince1970
             multipart.append(imageData,
                              withName: name,
-                             fileName: "\(name).jpg",
+                             fileName: "\(timestamp)\(name).jpg",
                              mimeType: "image/jpeg")
             for (key, value) in parameters.0 {
                 guard let val = value as? String else { return }
