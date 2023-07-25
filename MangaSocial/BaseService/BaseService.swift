@@ -107,6 +107,9 @@ class BaseAPI<T: Configuration> {
                     completionHandler(.failure(ServiceError.init(issueCode: .initValue(value: errorMessage))))
                     return
                 }
+                
+                let string = String(data: data ?? Data(), encoding: .utf8)
+                print(string)
                 guard let existData = data, let httpResponse = response as? HTTPURLResponse else {
                     completionHandler(.failure(ServiceError.notFoundData))
                     return
@@ -141,7 +144,7 @@ class BaseAPI<T: Configuration> {
     private func generateRequest(url: URL, method: String) -> NSMutableURLRequest {
         let request = NSMutableURLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30.0)
         request.httpMethod = method
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         request.setValue("application/json", forHTTPHeaderField: "accept")
         
         if let token = AppConstant.accessToken {

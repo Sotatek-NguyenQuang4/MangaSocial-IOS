@@ -76,6 +76,16 @@ extension UIViewController {
         return huds.first { $0.tag == kCustomeHUDTag }
     }
     
+    func showLoginIndicator(with title: String = "") {
+        DispatchQueue.main.async { [weak self] in
+            guard let sself = self, sself.customeIndicator == nil,
+                  let tabbarController = UIApplication.shared.mainKeyWindow?.rootViewController else { return }
+            let hud = LoadingView(title: title)
+            hud.showAdded(to: tabbarController.view)
+            hud.tag = kCustomeHUDTag
+        }
+    }
+    
     func showCustomeIndicator(with title: String = "") {
         DispatchQueue.main.async { [weak self] in
             guard let sself = self, sself.customeIndicator == nil,

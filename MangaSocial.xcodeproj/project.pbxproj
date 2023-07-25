@@ -65,6 +65,9 @@
 		6F2B57A42A7019C000A53CBF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F2B57A22A7019C000A53CBF /* LoginViewController.xib */; };
 		6F2B57A72A7019C800A53CBF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B57A52A7019C800A53CBF /* RegisterViewController.swift */; };
 		6F2B57A82A7019C800A53CBF /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F2B57A62A7019C800A53CBF /* RegisterViewController.xib */; };
+		6F2B57AB2A701D0600A53CBF /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B57AA2A701D0600A53CBF /* LoginAPI.swift */; };
+		6F2B57AD2A701D1100A53CBF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B57AC2A701D1100A53CBF /* LoginModel.swift */; };
+		6F2B57AF2A701D1E00A53CBF /* LoginServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B57AE2A701D1E00A53CBF /* LoginServiceConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +132,9 @@
 		6F2B57A22A7019C000A53CBF /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		6F2B57A52A7019C800A53CBF /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		6F2B57A62A7019C800A53CBF /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		6F2B57AA2A701D0600A53CBF /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		6F2B57AC2A701D1100A53CBF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		6F2B57AE2A701D1E00A53CBF /* LoginServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceConfiguration.swift; sourceTree = "<group>"; };
 		8612A24FD9D5D5B809FC6CF4 /* Pods-MangaSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaSocial.debug.xcconfig"; path = "Target Support Files/Pods-MangaSocial/Pods-MangaSocial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -300,6 +306,7 @@
 		3DC1E9902A6EC786009441B6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				6F2B57A92A701CF800A53CBF /* Login */,
 				3DC1E9912A6EC79D009441B6 /* Home */,
 			);
 			path = Service;
@@ -385,6 +392,16 @@
 				6F2B57A62A7019C800A53CBF /* RegisterViewController.xib */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		6F2B57A92A701CF800A53CBF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B57AA2A701D0600A53CBF /* LoginAPI.swift */,
+				6F2B57AC2A701D1100A53CBF /* LoginModel.swift */,
+				6F2B57AE2A701D1E00A53CBF /* LoginServiceConfiguration.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		A6DE80A277331443042F3CFC /* Frameworks */ = {
@@ -576,6 +593,7 @@
 				3D72B8CD2A6E7FC700164035 /* UIFont+Extension.swift in Sources */,
 				3DBF8AC32A6E375A00C2808B /* String+Extension.swift in Sources */,
 				3DE9597B2A6F768C003D6BD9 /* TabbarItemView.swift in Sources */,
+				6F2B57AD2A701D1100A53CBF /* LoginModel.swift in Sources */,
 				3DE959782A6F6BAC003D6BD9 /* MainTabBarController.swift in Sources */,
 				6F2B57A32A7019C000A53CBF /* LoginViewController.swift in Sources */,
 				3DC1E98B2A6EC1C0009441B6 /* Enviroment.swift in Sources */,
@@ -585,12 +603,14 @@
 				3DBF8AC12A6E36CC00C2808B /* UIColor+Extension.swift in Sources */,
 				3DE959732A6F6B45003D6BD9 /* ProfileViewController.swift in Sources */,
 				3DE9597F2A6F969B003D6BD9 /* NSAttributedString+Extension.swift in Sources */,
+				6F2B57AB2A701D0600A53CBF /* LoginAPI.swift in Sources */,
 				3DBF8ABF2A6E364E00C2808B /* UIView+Extension.swift in Sources */,
 				3DE9597D2A6F7ECC003D6BD9 /* TabbarItemActiveView.swift in Sources */,
 				3D72B8D22A6E820E00164035 /* BaseViewController.swift in Sources */,
 				3DBF8AC92A6E3A7700C2808B /* Int+Extension.swift in Sources */,
 				3D72B8CB2A6E7F7100164035 /* UICollectionView+Extension.swift in Sources */,
 				3D72B8FC2A6E9FEE00164035 /* R.generated.swift in Sources */,
+				6F2B57AF2A701D1E00A53CBF /* LoginServiceConfiguration.swift in Sources */,
 				3DBF8AC52A6E382400C2808B /* Optional+Extension.swift in Sources */,
 				3DC1E9872A6EC1A6009441B6 /* BaseService.swift in Sources */,
 				3D72B8DC2A6E87F200164035 /* UITextField+Extension.swift in Sources */,

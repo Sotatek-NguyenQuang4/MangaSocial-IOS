@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Toast_Swift
 
 class LoginViewController: UIViewController {
     
@@ -26,10 +27,36 @@ class LoginViewController: UIViewController {
             string: "Password",
             attributes: [NSAttributedString.Key.foregroundColor: UIColor.init(hexString: "#7D7C7C")])
         passwordTextField.enablePasswordToggle()
+        
+        emailTextField.text = "diem4639@gmail.com"
+        passwordTextField.text = "Diem6789"
     }
     
     @IBAction func actionLogin(_ sender: Any) {
+        let email = emailTextField.text.asStringOrEmpty()
+        let password = passwordTextField.text.asStringOrEmpty()
         
+        showLoginIndicator()
+        LoginAPI.shared.login(email: email,
+                              password: password) { [weak self] result in
+            guard let self = self else { return }
+            
+            switch result {
+            // success
+            case .success(let success):
+                guard let user = success.account else { return }
+                AppConstant.saveUser(model: user)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                    self.navigationController?.setRootViewController(viewController: MainTabBarController(),
+                                                                     controllerType: MainTabBarController.self)
+                })
+
+            // failure
+            case .failure(let failure):
+                self.view.makeToast(failure.message)
+            }
+            self.hideCustomeIndicator()
+        }
     }
     
     @IBAction func actionForgot(_ sender: Any) {
@@ -40,15 +67,4 @@ class LoginViewController: UIViewController {
         let vc = RegisterViewController(nibName: "RegisterViewController", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
-}
-
-struct LoginModel: Codable {
-    let account: Account?
-    let message: String
-}
-struct Account: Codable {
-    let email: String
-    let id_user: Int
-    let jwt: String
-    let password: String
 }

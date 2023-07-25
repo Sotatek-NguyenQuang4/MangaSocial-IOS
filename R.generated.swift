@@ -275,6 +275,7 @@ struct _R {
 
     func validate() throws {
       if UIKit.UIColor(named: "mainBg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainBg' is used in nib 'HomeViewController', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "mainText", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainText' is used in nib 'HomeViewController', but couldn't be loaded.") }
       if UIKit.UIImage(named: "img.login.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'img.login.bg' is used in nib 'LoginViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "ColerViewTextField", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'ColerViewTextField' is used in nib 'LoginViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "colerTextPass", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'colerTextPass' is used in nib 'LoginViewController', but couldn't be loaded.") }

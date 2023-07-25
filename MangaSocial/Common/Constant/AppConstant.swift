@@ -18,12 +18,23 @@ struct AppConstant {
         get { UserDefaults.standard.value(forKey: "access-token") as? String }
         set { UserDefaults.standard.setValue(newValue, forKey: "access-token") }
     }
+    
+    static var userId: String? {
+        get { UserDefaults.standard.value(forKey: "userId") as? String }
+        set { UserDefaults.standard.setValue(newValue, forKey: "userId") }
+    }
 }
 
 extension AppConstant {
     
     static func logout() {
-        accessToken = nil
+        accessToken = ""
+        userId = ""
+    }
+    
+    static func saveUser(model: Account) {
+        accessToken = model.jwt
+        userId = model.id_user.toString()
     }
 }
 
