@@ -132,8 +132,8 @@ struct _R {
     /// Image `ico.tabbar.profile`.
     var icoTabbarProfile: RswiftResources.ImageResource { .init(name: "ico.tabbar.profile", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
-    /// Image `icon.hidden.password`.
-    var iconHiddenPassword: RswiftResources.ImageResource { .init(name: "icon.hidden.password", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+    /// Image `icon.Hidden.password`.
+    var iconHiddenPassword: RswiftResources.ImageResource { .init(name: "icon.Hidden.password", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `icon.show.password`.
     var iconShowPassword: RswiftResources.ImageResource { .init(name: "icon.show.password", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
