@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="confirmPasswordTextField" destination="uMn-YY-ntE" id="fgE-bG-EdT"/>
                 <outlet property="emailTextField" destination="9mf-dB-1Mk" id="N7N-9B-Lj1"/>
+                <outlet property="loginButtonSignIn" destination="aqv-Oy-Xek" id="L4T-ry-abw"/>
                 <outlet property="passwordTextField" destination="EaQ-Zh-VhZ" id="ZBM-m5-6lP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -78,6 +79,9 @@
                                     <color key="value" name="main.input.text"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="changeEmail:" destination="-1" eventType="editingDidEnd" id="nvC-m3-oI6"/>
+                            </connections>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksh-dE-n08">
                             <rect key="frame" x="0.0" y="186" width="363" height="8"/>
@@ -103,6 +107,9 @@
                                     <color key="value" name="main.input.text"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="changePassword:" destination="-1" eventType="editingDidEnd" id="eOm-AQ-9r8"/>
+                            </connections>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fF7-bk-4wn">
                             <rect key="frame" x="0.0" y="234" width="363" height="8"/>
@@ -128,6 +135,9 @@
                                     <color key="value" name="main.input.text"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="changeConfirmPassword:" destination="-1" eventType="editingDidEnd" id="vwo-5s-uat"/>
+                            </connections>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BeH-Oh-3oa">
                             <rect key="frame" x="0.0" y="282" width="363" height="8"/>

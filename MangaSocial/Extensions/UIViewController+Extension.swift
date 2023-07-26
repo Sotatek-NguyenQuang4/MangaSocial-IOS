@@ -86,16 +86,6 @@ extension UIViewController {
         }
     }
     
-//    func showCustomeIndicator(with title: String = "") {
-//        DispatchQueue.main.async { [weak self] in
-//            guard let sself = self, sself.customeIndicator == nil,
-//                  let tabbarController = self?.tabBarController else { return }
-//            let hud = LoadingView(title: title)
-//            hud.showAdded(to: tabbarController.view)
-//            hud.tag = kCustomeHUDTag
-//        }
-//    }
-    
     func hideCustomeIndicator(completion: (() -> Void)? = nil) {
         DispatchQueue.main.async {
             self.customeIndicator?.hide(completion: completion)
