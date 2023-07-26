@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController" customModule="MangaSocial" customModuleProvider="target">
             <connections>
                 <outlet property="confirmPasswordTextField" destination="uMn-YY-ntE" id="fgE-bG-EdT"/>
+                <outlet property="emailCheckLabel" destination="EyY-bO-JdS" id="Loq-MC-hal"/>
                 <outlet property="emailTextField" destination="9mf-dB-1Mk" id="N7N-9B-Lj1"/>
                 <outlet property="loginButtonSignIn" destination="aqv-Oy-Xek" id="L4T-ry-abw"/>
                 <outlet property="passwordTextField" destination="EaQ-Zh-VhZ" id="ZBM-m5-6lP"/>
@@ -55,11 +56,11 @@
                             <color key="textColor" name="mainText"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8b-24-wqg">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4mq-uT-2Wm">
                             <rect key="frame" x="0.0" y="82" width="363" height="64"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="64" id="mB8-Du-uZC"/>
+                                <constraint firstAttribute="height" constant="64" id="tIb-Ee-Sn7"/>
                             </constraints>
                         </view>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9mf-dB-1Mk">
@@ -83,6 +84,25 @@
                                 <action selector="changeEmail:" destination="-1" eventType="editingDidEnd" id="nvC-m3-oI6"/>
                             </connections>
                         </textField>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EyY-bO-JdS">
+                            <rect key="frame" x="0.0" y="186" width="363" height="8"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email không hợp lệ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hz-yR-CcM">
+                                    <rect key="frame" x="15" y="0.0" width="348" height="8"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                    <color key="textColor" systemColor="systemRedColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="1hm-qY-55F"/>
+                                <constraint firstItem="6hz-yR-CcM" firstAttribute="top" secondItem="EyY-bO-JdS" secondAttribute="top" id="79d-tk-4D6"/>
+                                <constraint firstAttribute="trailing" secondItem="6hz-yR-CcM" secondAttribute="trailing" id="Gww-Lz-TVh"/>
+                                <constraint firstItem="6hz-yR-CcM" firstAttribute="leading" secondItem="EyY-bO-JdS" secondAttribute="leading" constant="15" id="OqM-Qz-QqS"/>
+                                <constraint firstAttribute="bottom" secondItem="6hz-yR-CcM" secondAttribute="bottom" id="Tef-nR-rZM"/>
+                            </constraints>
+                        </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksh-dE-n08">
                             <rect key="frame" x="0.0" y="186" width="363" height="8"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -267,6 +287,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
