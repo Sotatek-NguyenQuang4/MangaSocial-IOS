@@ -66,27 +66,39 @@ class RegisterViewController: BaseViewController {
         var isPassword: Bool = false
         var isConfirmPassword: Bool = false
         // Check thêm email.isEmpty (email phải có ít nhất 1 kí tự mới check) tương tự cho password
-        if !email.isValidEmail && !email.isEmpty {
+        if email.isValidEmail {
+            isEmail = true
+        } else {
             isEmail = false
+        }
+        
+        if password.isValidPassword {
+            isPassword = true
+        } else {
+            isPassword = false
+        }
+        
+        if password != confirmPassword {
+            isConfirmPassword = false
+        } else {
+            isConfirmPassword = true
+        }
+        
+        if !isEmail && !email.isEmpty {
             errorEmailView.isHidden = false
         } else {
-            isEmail = true
             errorEmailView.isHidden = true
         }
         
-        if !password.isValidPassword && !password.isEmpty {
-            isPassword = false
+        if !isPassword && !password.isEmpty {
             errorPasswordView.isHidden = false
         } else {
-            isPassword = true
             errorPasswordView.isHidden = true
         }
         
-        if password != confirmPassword && !confirmPassword.isEmpty {
-            isConfirmPassword = false
+        if !isConfirmPassword && !confirmPassword.isEmpty {
             errorConfirmPasswordView.isHidden = false
         } else {
-            isConfirmPassword = true
             errorConfirmPasswordView.isHidden = true
         }
         
@@ -97,6 +109,11 @@ class RegisterViewController: BaseViewController {
             loginButtonSignIn.isUserInteractionEnabled = false
             loginButtonSignIn.backgroundColor = R.color.mainDisable.callAsFunction()
         }
+    }
+    
+    func showErrorValidate() {
+        errorEmailView.isHidden = true
+
     }
     
     @IBAction func actionSignIn(_ sender: Any) {
