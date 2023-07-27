@@ -94,7 +94,7 @@ class BaseAPI<T: Configuration> {
         // Create request
         let request = self.generateRequest(url: url, method: configuration.method.rawValue)
         
-        if configuration.method == HTTPMethod.post {
+        if configuration.method != HTTPMethod.get {
             let postString = self.getPostString(params: parameters.0)
             request.httpBody = postString.data(using: .utf8)
         }
