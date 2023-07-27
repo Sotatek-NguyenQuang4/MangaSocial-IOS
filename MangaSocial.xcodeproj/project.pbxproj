@@ -71,6 +71,11 @@
 		6FB81F142A70B6360072379B /* RegisterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB81F132A70B6360072379B /* RegisterAPI.swift */; };
 		6FB81F162A70B6AF0072379B /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB81F152A70B6AF0072379B /* RegisterModel.swift */; };
 		6FB81F182A70B6D80072379B /* RegisterServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB81F172A70B6D80072379B /* RegisterServiceConfiguration.swift */; };
+		6FB81F1B2A71076B0072379B /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB81F192A71076B0072379B /* ForgotViewController.swift */; };
+		6FB81F1C2A71076B0072379B /* ForgotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FB81F1A2A71076B0072379B /* ForgotViewController.xib */; };
+		6FB81F222A7120020072379B /* ForgotAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB81F212A7120020072379B /* ForgotAPI.swift */; };
+		6FB81F242A71209C0072379B /* ForgotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB81F232A71209C0072379B /* ForgotModel.swift */; };
+		6FB81F262A7120BE0072379B /* ForgotServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB81F252A7120BE0072379B /* ForgotServiceConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +146,11 @@
 		6FB81F132A70B6360072379B /* RegisterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAPI.swift; sourceTree = "<group>"; };
 		6FB81F152A70B6AF0072379B /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		6FB81F172A70B6D80072379B /* RegisterServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterServiceConfiguration.swift; sourceTree = "<group>"; };
+		6FB81F192A71076B0072379B /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		6FB81F1A2A71076B0072379B /* ForgotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotViewController.xib; sourceTree = "<group>"; };
+		6FB81F212A7120020072379B /* ForgotAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotAPI.swift; sourceTree = "<group>"; };
+		6FB81F232A71209C0072379B /* ForgotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotModel.swift; sourceTree = "<group>"; };
+		6FB81F252A7120BE0072379B /* ForgotServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotServiceConfiguration.swift; sourceTree = "<group>"; };
 		8612A24FD9D5D5B809FC6CF4 /* Pods-MangaSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaSocial.debug.xcconfig"; path = "Target Support Files/Pods-MangaSocial/Pods-MangaSocial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -312,6 +322,7 @@
 		3DC1E9902A6EC786009441B6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				6FB81F1E2A711F940072379B /* Forgot */,
 				6FB81F122A70B5FF0072379B /* Register */,
 				6F2B57A92A701CF800A53CBF /* Login */,
 				3DC1E9912A6EC79D009441B6 /* Home */,
@@ -377,6 +388,7 @@
 		6F2B579E2A7019A600A53CBF /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				6FB81F1D2A7107740072379B /* Forgot */,
 				6F2B57A02A7019AF00A53CBF /* Register */,
 				6F2B579F2A7019AB00A53CBF /* Login */,
 			);
@@ -419,6 +431,25 @@
 				6FB81F172A70B6D80072379B /* RegisterServiceConfiguration.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		6FB81F1D2A7107740072379B /* Forgot */ = {
+			isa = PBXGroup;
+			children = (
+				6FB81F192A71076B0072379B /* ForgotViewController.swift */,
+				6FB81F1A2A71076B0072379B /* ForgotViewController.xib */,
+			);
+			path = Forgot;
+			sourceTree = "<group>";
+		};
+		6FB81F1E2A711F940072379B /* Forgot */ = {
+			isa = PBXGroup;
+			children = (
+				6FB81F212A7120020072379B /* ForgotAPI.swift */,
+				6FB81F232A71209C0072379B /* ForgotModel.swift */,
+				6FB81F252A7120BE0072379B /* ForgotServiceConfiguration.swift */,
+			);
+			path = Forgot;
 			sourceTree = "<group>";
 		};
 		A6DE80A277331443042F3CFC /* Frameworks */ = {
@@ -500,6 +531,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB81F1C2A71076B0072379B /* ForgotViewController.xib in Resources */,
 				3DE9596C2A6F6B1A003D6BD9 /* NewsViewController.xib in Resources */,
 				6F8A37282A703571007F4B88 /* Inter-ExtraBold.ttf in Resources */,
 				6F8A37252A703571007F4B88 /* Inter-ExtraLight.ttf in Resources */,
@@ -616,10 +648,13 @@
 				6F2B57A32A7019C000A53CBF /* LoginViewController.swift in Sources */,
 				3DC1E98B2A6EC1C0009441B6 /* Enviroment.swift in Sources */,
 				3D996EE92A6FBB0D002BE4ED /* LoadingView.swift in Sources */,
+				6FB81F262A7120BE0072379B /* ForgotServiceConfiguration.swift in Sources */,
 				3DE9596B2A6F6B1A003D6BD9 /* NewsViewController.swift in Sources */,
 				3DBF8AC72A6E399700C2808B /* UIViewController+Extension.swift in Sources */,
+				6FB81F1B2A71076B0072379B /* ForgotViewController.swift in Sources */,
 				3DBF8AC12A6E36CC00C2808B /* UIColor+Extension.swift in Sources */,
 				3DE959732A6F6B45003D6BD9 /* ProfileViewController.swift in Sources */,
+				6FB81F242A71209C0072379B /* ForgotModel.swift in Sources */,
 				3DE9597F2A6F969B003D6BD9 /* NSAttributedString+Extension.swift in Sources */,
 				6F2B57AB2A701D0600A53CBF /* LoginAPI.swift in Sources */,
 				3DBF8ABF2A6E364E00C2808B /* UIView+Extension.swift in Sources */,
@@ -643,6 +678,7 @@
 				3DC1E98F2A6EC667009441B6 /* AppConstant.swift in Sources */,
 				3DBF8AA22A6E334100C2808B /* AppDelegate.swift in Sources */,
 				3DBF8AA42A6E334100C2808B /* SceneDelegate.swift in Sources */,
+				6FB81F222A7120020072379B /* ForgotAPI.swift in Sources */,
 				3D72B8D72A6E831100164035 /* LayoutSpec+Protocols.swift in Sources */,
 				3DC1E98C2A6EC1C0009441B6 /* Configs.swift in Sources */,
 				3DC1E9972A6EC7D7009441B6 /* HomeModel.swift in Sources */,

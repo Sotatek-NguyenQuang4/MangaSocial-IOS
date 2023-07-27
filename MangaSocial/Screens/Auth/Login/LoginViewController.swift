@@ -15,6 +15,8 @@ class LoginViewController: BaseViewController {
     @IBOutlet weak var forgotPasswordButton: UIButton!
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var errorEmailView: UIView!
+    @IBOutlet weak var errorPasswordView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,8 @@ class LoginViewController: BaseViewController {
         passwordTextField.enablePasswordToggle()
         checkValidate()
         
+        errorEmailView.isHidden = true
+        errorPasswordView.isHidden = true
         hideKeyboardWhenTappedAround()
     }
     
@@ -80,6 +84,18 @@ class LoginViewController: BaseViewController {
         } else {
             isPassword = true
         }
+        
+        if !isEmail && !email.isEmpty {
+            errorEmailView.isHidden = false
+        } else {
+            errorEmailView.isHidden = true
+        }
+        
+        if !isPassword && !password.isEmpty {
+            errorPasswordView.isHidden = false
+        } else {
+            errorPasswordView.isHidden = true
+        }
         // Nếu cả email và isPassword đều phải đúng định dạng mới sáng nút button login
         // isUserInteractionEnabled: Tắt/Bật action của button
         if isEmail && isPassword {
@@ -92,7 +108,8 @@ class LoginViewController: BaseViewController {
     }
     
     @IBAction func actionForgot(_ sender: Any) {
-        
+        let vc = ForgotViewController(nibName: "ForgotViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func actionSignUp(_ sender: Any) {
