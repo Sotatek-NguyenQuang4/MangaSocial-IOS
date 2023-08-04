@@ -7,23 +7,22 @@ import Foundation
 
 class HomeAPI: BaseAPI<HomeServiceConfiguration> {
     static let shared = HomeAPI()
-    
-    func getLovehistory(page: Int,
-                        completionHandler: @escaping (Result<[[HomeModel]], ServiceError>) -> Void) {
-        fetchData(configuration: .getLovehistory(page: page), 
-                  responseType: [[HomeModel]].self) { result in
-            completionHandler(result)
+    func getHome(completionHandler: @escaping (Result<[HomeModel], ServiceError>) -> Void) {
+//        fetchData(configuration: .getHome,
+//                  responseType: [HomeModel].self) { result in
+//            completionHandler(result)
+//        }
+        guard let url = Bundle.main.url(forResource: "json", withExtension: "geojson") else {
+            completionHandler(.failure(.urlError))
+            return
         }
-    }
-    
-    func uploadImage(key: String, 
-                     name: String,
-                     imageData: Data, 
-                     completionHandler: @escaping (Result<UploadImage, ServiceError>) -> Void) {
-        upload(configuration: .uploadImage(key: key, imageData: imageData),
-               name: name,
-               responseType: UploadImage.self) { result in
-            completionHandler(result)
-        }    
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            let jsonData = try decoder.decode([HomeModel].self, from: data)
+            completionHandler(.success(jsonData))
+        } catch {
+            completionHandler(.failure(.jsonError))
+        }
     }
 }

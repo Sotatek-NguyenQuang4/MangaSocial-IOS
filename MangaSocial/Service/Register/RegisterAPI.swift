@@ -13,9 +13,10 @@ class RegisterAPI: BaseAPI<RegisterServiceConfiguration> {
     func register(email: String,
                   password: String,
                   completionHandler: @escaping (Result<RegisterModel, ServiceError>) -> Void) {
-        fetchData(configuration: .register(email: email, password: password),
-                  responseType: RegisterModel.self) { result in
-            completionHandler(result)
+        fetchData(configuration: .register(email: email,
+                                           password: password),
+                                           responseType: RegisterModel.self) { result in
+                                           completionHandler(result)
         }
     }
 }

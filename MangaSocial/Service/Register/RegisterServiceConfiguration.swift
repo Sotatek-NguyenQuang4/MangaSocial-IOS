@@ -8,7 +8,8 @@
 import Foundation
 
 enum RegisterServiceConfiguration {
-    case register(email: String, password: String)
+    case register(email: String,
+                  password: String)
 }
 
 extension RegisterServiceConfiguration: Configuration {
@@ -38,8 +39,10 @@ extension RegisterServiceConfiguration: Configuration {
     
     var task: Task {
         switch self {
-        case .register(let email , let password):
-            let param = ["email": email, "password": password]
+        case .register(let email,
+                       let password):
+            let param = ["email": email,
+                         "password": password]
             return .requestParameters(parameters: param)
         }
     }

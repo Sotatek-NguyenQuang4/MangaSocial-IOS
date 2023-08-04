@@ -76,7 +76,7 @@ class BaseAPI<T: Configuration> {
                                  completionHandler: @escaping (Result<M, ServiceError>) -> Void) {
         
         let parameters = generateParams(task: configuration.task)
-        let url = configuration.baseURL + configuration.path.escape()
+        let url = configuration.baseURL + configuration.path
         guard var components = URLComponents(string: url) else {
             completionHandler(.failure(.urlError))
             return
@@ -98,7 +98,7 @@ class BaseAPI<T: Configuration> {
             let postString = self.getPostString(params: parameters.0)
             request.httpBody = postString.data(using: .utf8)
         }
-        
+        print(request.url)
         let dataTask = URLSession.shared.dataTask(with: request as URLRequest,
                                                   completionHandler: { data, response, error in
             DispatchQueue.main.async {
@@ -109,7 +109,7 @@ class BaseAPI<T: Configuration> {
                 }
                 
                 let string = String(data: data ?? Data(), encoding: .utf8)
-                print(string)
+                print(string.asStringOrEmpty())
                 guard let existData = data, let httpResponse = response as? HTTPURLResponse else {
                     completionHandler(.failure(ServiceError.notFoundData))
                     return

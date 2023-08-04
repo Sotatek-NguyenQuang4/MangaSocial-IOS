@@ -33,10 +33,7 @@ class BaseViewController: UIViewController {
     
     // MARK: - Navigation Bar
     func hideNavigationBar(isHide: Bool = true) {
-        self.navigationController?.navigationBar.isHidden = isHide
-        if !isHide {
-            self.navigationController?.navigationBar.isTranslucent = false
-        }
+        self.navigationController?.isNavigationBarHidden = isHide
     }
     
     func setupNavigationBar(titleView: UIView,

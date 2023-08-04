@@ -20,7 +20,9 @@ class RegisterViewController: BaseViewController {
     @IBOutlet weak var errorConfirmPasswordView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         hideNavigationBar()
+        hideKeyboardWhenTappedAround()
         
         emailTextField.addPadding(.left(15))
         passwordTextField.addPadding(.left(15))
@@ -30,11 +32,7 @@ class RegisterViewController: BaseViewController {
         confirmPasswordTextField.enablePasswordToggle()
         
         checkValidate()
-        hideKeyboardWhenTappedAround()
-        
-        errorEmailView.isHidden = true
-        errorPasswordView.isHidden = true
-        errorConfirmPasswordView.isHidden = true
+        showErrorValidate()
     }
     
     @IBAction func actionLogin(_ sender: Any) {
@@ -65,7 +63,7 @@ class RegisterViewController: BaseViewController {
         var isEmail: Bool = false
         var isPassword: Bool = false
         var isConfirmPassword: Bool = false
-        // Check thêm email.isEmpty (email phải có ít nhất 1 kí tự mới check) tương tự cho password
+  
         if email.isValidEmail {
             isEmail = true
         } else {
@@ -113,7 +111,8 @@ class RegisterViewController: BaseViewController {
     
     func showErrorValidate() {
         errorEmailView.isHidden = true
-
+        errorPasswordView.isHidden = true
+        errorConfirmPasswordView.isHidden = true
     }
     
     @IBAction func actionSignIn(_ sender: Any) {
@@ -121,7 +120,8 @@ class RegisterViewController: BaseViewController {
         let password = passwordTextField.text.asStringOrEmpty()
         
         showCustomeIndicator()
-        RegisterAPI.shared.register(email: email, password: password) { [weak self] result in
+        RegisterAPI.shared.register(email: email,
+                                    password: password) { [weak self] result in
             guard let seft = self else { return }
             seft.hideCustomeIndicator()
             switch result {

@@ -7,6 +7,7 @@ PODS:
   - SnapKit (5.6.0)
   - SwiftLint (0.52.2)
   - Toast-Swift (5.0.1)
+  - UPCarouselFlowLayout (1.1.2)
 
 DEPENDENCIES:
   - AlamofireImage (~> 4.1)
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - SnapKit (~> 5.6.0)
   - SwiftLint
   - Toast-Swift
+  - UPCarouselFlowLayout
 
 SPEC REPOS:
   trunk:
@@ -25,6 +27,7 @@ SPEC REPOS:
     - SnapKit
     - SwiftLint
     - Toast-Swift
+    - UPCarouselFlowLayout
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
@@ -34,7 +37,8 @@ SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftLint: 1ac76dac888ca05cb0cf24d0c85887ec1209961d
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
 
-PODFILE CHECKSUM: 4bca635a521d4b57b142cf0f3f138f6158d77531
+PODFILE CHECKSUM: 194dfbd2e38cb33bf89a6db7a1512840cfc21e00
 
 COCOAPODS: 1.12.1

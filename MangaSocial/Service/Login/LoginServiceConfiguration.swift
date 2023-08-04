@@ -9,7 +9,8 @@ import Foundation
 import Alamofire
 
 enum LoginServiceConfiguration {
-    case login(email: String, password: String)
+    case login(email: String,
+               password: String)
 }
 
 extension LoginServiceConfiguration: Configuration {
@@ -37,11 +38,11 @@ extension LoginServiceConfiguration: Configuration {
     
     var task: Task {
         switch self {
-        case .login(let email, let password):
+        case .login(let email,
+                    let password):
             let parameters = [
                 "email": email,
-                "password": password
-            ]
+                "password": password ]
             return .requestParameters(parameters: parameters)
         }
     }

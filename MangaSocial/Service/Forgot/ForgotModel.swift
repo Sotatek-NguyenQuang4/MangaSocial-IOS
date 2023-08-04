@@ -9,7 +9,7 @@ import Foundation
 
 struct ForgotPassModel: Codable {
     let account: Dataforgot?
-    let messega: String
+    let message: String
 }
 
 struct Dataforgot: Codable {

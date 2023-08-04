@@ -7,21 +7,20 @@ import Foundation
 
 struct HomeModel: Codable {
     let id: Int
-    let id_toan_bo_su_kien: Int
-    let link_da_swap: String?
-    let link_nam_goc: String?
-    let link_nu_goc: String?
-    let noi_dung_su_kien: String
-    let real_time: String
-    let so_thu_tu_su_kien: Double
-    let ten_su_kien: String
+    let type: Int
+    let name: String
+    let data: [SwordplayModel]
+
 }
 
-struct UploadImage: Codable {
-    let success: Bool
-    let status: Int
-}
-
-struct UploadImageData: Codable {
-    let id: String
+struct SwordplayModel: Codable {
+    let chapter_new: String?
+    let id_chapter: String?
+    let id_manga: String?
+    let image_poster_link_goc: String?
+    let rate: String?
+    let time_release: String?
+    let title_manga: String?
+    let url_chapter: String?
+    let url_manga: String?
 }

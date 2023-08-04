@@ -1,0 +1,1370 @@
+
+[
+    {
+        "id": 1,
+        "type": 1,
+        "name": "",
+        "data": [
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://de.ninemanga.com/chapter/Prunus%20Girl/453669.html",
+                "id_manga": "https://de.ninemanga.com/manga/Prunus+Girl.html",
+                "image_poster_link_goc": "https://img.wiemanga.com/files/img/logo/202306/202306142023022023.jpg",
+                "rate": "3.0",
+                "time_release": "Jun 14, 2023",
+                "title_manga": "Prunus Girl",
+                "url_chapter": "http://14.225.7.221:7979/manga/Prunus+Girl/453669",
+                "url_manga": "http://14.225.7.221:7979/manga/Prunus+Girl"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/otome-no-teikoku/chapter-271/",
+                "id_manga": "https://mangakomi.io/manga/otome-no-teikoku/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/12/thumb_5fc89d5c5a97d-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5fc89d5c5a97d",
+                "url_chapter": "http://14.225.7.221:7979/manga/otome-no-teikoku/chapter-271",
+                "url_manga": "http://14.225.7.221:7979/manga/otome-no-teikoku"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/chapter-339/",
+                "id_manga": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/02/thumb_5e40e2ac7b38a.jpg",
+                "rate": "4.6",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5e40e2ac7b38a",
+                "url_chapter": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls/chapter-339",
+                "url_manga": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/apocalyptic-super-system/chapter-386/",
+                "id_manga": "https://mangakomi.io/manga/apocalyptic-super-system/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/thumb_5f85739eaa34e.png",
+                "rate": "4.1",
+                "time_release": "May 31, 2023",
+                "title_manga": "apocalyptic super system",
+                "url_chapter": "http://14.225.7.221:7979/manga/apocalyptic-super-system/chapter-386",
+                "url_manga": "http://14.225.7.221:7979/manga/apocalyptic-super-system"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54/",
+                "id_manga": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/06/Im-a-Killer-but-Im-Thinking-of-Living-as-a-Princess-110x150.jpeg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "I’m a Killer but I’m Thinking of Living as a Princess",
+                "url_chapter": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54",
+                "url_manga": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/legal-cohabitation/chapter-74/",
+                "id_manga": "https://mangakomi.io/manga/legal-cohabitation/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/thumb_5df4654f16f46.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5df4654f16f46",
+                "url_chapter": "http://14.225.7.221:7979/manga/legal-cohabitation/chapter-74",
+                "url_manga": "http://14.225.7.221:7979/manga/legal-cohabitation"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/girl-crush/chapter-44/",
+                "id_manga": "https://mangakomi.io/manga/girl-crush/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/Girl-Crush-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Girl Crush",
+                "url_chapter": "http://14.225.7.221:7979/manga/girl-crush/chapter-44",
+                "url_manga": "http://14.225.7.221:7979/manga/girl-crush"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-world-after-the-fall/chapter-76/",
+                "id_manga": "https://mangakomi.io/manga/the-world-after-the-fall/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2022/02/The-World-After-the-Fall-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "The World After the Fall",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-world-after-the-fall/chapter-76",
+                "url_manga": "http://14.225.7.221:7979/manga/the-world-after-the-fall"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/silent-lover/chapter-152/",
+                "id_manga": "https://mangakomi.io/manga/silent-lover/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/05/Silent-Lover.jpg",
+                "rate": "4.9",
+                "time_release": "May 29, 2023",
+                "title_manga": "Silent Lover",
+                "url_chapter": "http://14.225.7.221:7979/manga/silent-lover/chapter-152",
+                "url_manga": "http://14.225.7.221:7979/manga/silent-lover"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/chapter-120/",
+                "id_manga": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/08/Rinjin-chan-ga-shinpai.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Rinjin-chan ga shinpai",
+                "url_chapter": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai/chapter-120",
+                "url_manga": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1/",
+                "id_manga": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/thumb_647550acbad5f-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "thumb_647550acbad5f",
+                "url_chapter": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1",
+                "url_manga": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1/",
+                "id_manga": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/Honyaku-no-Sainou-de-Ore-Dake-ga-Sekai-wo-Kaihen-Dekiru-Ken-Hazure-Sainou-Honyaku-de-Kizukeba-Sekai-Saikyou-ni-Nattemashita-110x150.jpg",
+                "rate": "0.0",
+                "time_release": "May 28, 2023",
+                "title_manga": "Honyaku no Sainou de Ore Dake ga Sekai wo Kaihen Dekiru Ken ~Hazure Sainou Honyaku de Kizukeba Sekai Saikyou ni Nattemashita~",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1",
+                "url_manga": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/chapter-87/",
+                "id_manga": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/07/The-Princess-Pretends-To-Be-Crazy-1-110x150.jpg",
+                "rate": "4.1",
+                "time_release": "May 28, 2023",
+                "title_manga": "The Princess Pretends To Be Crazy",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy/chapter-87",
+                "url_manga": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467/",
+                "id_manga": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/04/thumb_5e95be7b09712.jpg",
+                "rate": "4.5",
+                "time_release": "May 28, 2023",
+                "title_manga": "thumb_5e95be7b09712",
+                "url_chapter": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467",
+                "url_manga": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/son-in-law-above-them-all/chapter-241/",
+                "id_manga": "https://mangakomi.io/manga/son-in-law-above-them-all/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/04/Son-In-Law-Above-Them-All-110x150.jpg",
+                "rate": "3.8",
+                "time_release": "May 27, 2023",
+                "title_manga": "Son-In-Law Above Them All",
+                "url_chapter": "http://14.225.7.221:7979/manga/son-in-law-above-them-all/chapter-241",
+                "url_manga": "http://14.225.7.221:7979/manga/son-in-law-above-them-all"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/chapter-353/",
+                "id_manga": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/Love-Me-Gently-Bossy-Ceo.jpg",
+                "rate": "4.1",
+                "time_release": "May 27, 2023",
+                "title_manga": "Love Me Gently, Bossy Ceo",
+                "url_chapter": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo/chapter-353",
+                "url_manga": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/marshal-is-jealous-everyday/chapter-326/",
+                "id_manga": "https://mangakomi.io/manga/marshal-is-jealous-everyday/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Marshal-Is-Jealous-Everyday.jpg",
+                "rate": "4.6",
+                "time_release": "May 26, 2023",
+                "title_manga": "Marshal Is Jealous Everyday",
+                "url_chapter": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday/chapter-326",
+                "url_manga": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/chapter-291/",
+                "id_manga": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/11/I-Might-Be-A-Fake-Cultivator.jpg",
+                "rate": "4.4",
+                "time_release": "May 26, 2023",
+                "title_manga": "I Might Be A Fake Cultivator",
+                "url_chapter": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator/chapter-291",
+                "url_manga": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-bride-of-barbaroi/chapter-16/",
+                "id_manga": "https://mangakomi.io/manga/the-bride-of-barbaroi/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/The-Bride-of-Barbaroi-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 26, 2023",
+                "title_manga": "The Bride of Barbaroi",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi/chapter-16",
+                "url_manga": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/cultivation-chat-group/chapter-548/",
+                "id_manga": "https://mangakomi.io/manga/cultivation-chat-group/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Cultivation-Chat-Group.jpg",
+                "rate": "4.1",
+                "time_release": "May 26, 2023",
+                "title_manga": "Cultivation Chat Group",
+                "url_chapter": "http://14.225.7.221:7979/manga/cultivation-chat-group/chapter-548",
+                "url_manga": "http://14.225.7.221:7979/manga/cultivation-chat-group"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": 2,
+        "name": "New Released Comic",
+        "data": [
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://de.ninemanga.com/chapter/Prunus%20Girl/453669.html",
+                "id_manga": "https://de.ninemanga.com/manga/Prunus+Girl.html",
+                "image_poster_link_goc": "https://img.wiemanga.com/files/img/logo/202306/202306142023022023.jpg",
+                "rate": "3.0",
+                "time_release": "Jun 14, 2023",
+                "title_manga": "Prunus Girl",
+                "url_chapter": "http://14.225.7.221:7979/manga/Prunus+Girl/453669",
+                "url_manga": "http://14.225.7.221:7979/manga/Prunus+Girl"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/otome-no-teikoku/chapter-271/",
+                "id_manga": "https://mangakomi.io/manga/otome-no-teikoku/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/12/thumb_5fc89d5c5a97d-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5fc89d5c5a97d",
+                "url_chapter": "http://14.225.7.221:7979/manga/otome-no-teikoku/chapter-271",
+                "url_manga": "http://14.225.7.221:7979/manga/otome-no-teikoku"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/chapter-339/",
+                "id_manga": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/02/thumb_5e40e2ac7b38a.jpg",
+                "rate": "4.6",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5e40e2ac7b38a",
+                "url_chapter": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls/chapter-339",
+                "url_manga": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/apocalyptic-super-system/chapter-386/",
+                "id_manga": "https://mangakomi.io/manga/apocalyptic-super-system/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/thumb_5f85739eaa34e.png",
+                "rate": "4.1",
+                "time_release": "May 31, 2023",
+                "title_manga": "apocalyptic super system",
+                "url_chapter": "http://14.225.7.221:7979/manga/apocalyptic-super-system/chapter-386",
+                "url_manga": "http://14.225.7.221:7979/manga/apocalyptic-super-system"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54/",
+                "id_manga": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/06/Im-a-Killer-but-Im-Thinking-of-Living-as-a-Princess-110x150.jpeg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "I’m a Killer but I’m Thinking of Living as a Princess",
+                "url_chapter": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54",
+                "url_manga": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/legal-cohabitation/chapter-74/",
+                "id_manga": "https://mangakomi.io/manga/legal-cohabitation/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/thumb_5df4654f16f46.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5df4654f16f46",
+                "url_chapter": "http://14.225.7.221:7979/manga/legal-cohabitation/chapter-74",
+                "url_manga": "http://14.225.7.221:7979/manga/legal-cohabitation"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/girl-crush/chapter-44/",
+                "id_manga": "https://mangakomi.io/manga/girl-crush/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/Girl-Crush-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Girl Crush",
+                "url_chapter": "http://14.225.7.221:7979/manga/girl-crush/chapter-44",
+                "url_manga": "http://14.225.7.221:7979/manga/girl-crush"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-world-after-the-fall/chapter-76/",
+                "id_manga": "https://mangakomi.io/manga/the-world-after-the-fall/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2022/02/The-World-After-the-Fall-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "The World After the Fall",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-world-after-the-fall/chapter-76",
+                "url_manga": "http://14.225.7.221:7979/manga/the-world-after-the-fall"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/silent-lover/chapter-152/",
+                "id_manga": "https://mangakomi.io/manga/silent-lover/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/05/Silent-Lover.jpg",
+                "rate": "4.9",
+                "time_release": "May 29, 2023",
+                "title_manga": "Silent Lover",
+                "url_chapter": "http://14.225.7.221:7979/manga/silent-lover/chapter-152",
+                "url_manga": "http://14.225.7.221:7979/manga/silent-lover"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/chapter-120/",
+                "id_manga": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/08/Rinjin-chan-ga-shinpai.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Rinjin-chan ga shinpai",
+                "url_chapter": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai/chapter-120",
+                "url_manga": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1/",
+                "id_manga": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/thumb_647550acbad5f-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "thumb_647550acbad5f",
+                "url_chapter": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1",
+                "url_manga": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1/",
+                "id_manga": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/Honyaku-no-Sainou-de-Ore-Dake-ga-Sekai-wo-Kaihen-Dekiru-Ken-Hazure-Sainou-Honyaku-de-Kizukeba-Sekai-Saikyou-ni-Nattemashita-110x150.jpg",
+                "rate": "0.0",
+                "time_release": "May 28, 2023",
+                "title_manga": "Honyaku no Sainou de Ore Dake ga Sekai wo Kaihen Dekiru Ken ~Hazure Sainou Honyaku de Kizukeba Sekai Saikyou ni Nattemashita~",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1",
+                "url_manga": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/chapter-87/",
+                "id_manga": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/07/The-Princess-Pretends-To-Be-Crazy-1-110x150.jpg",
+                "rate": "4.1",
+                "time_release": "May 28, 2023",
+                "title_manga": "The Princess Pretends To Be Crazy",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy/chapter-87",
+                "url_manga": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467/",
+                "id_manga": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/04/thumb_5e95be7b09712.jpg",
+                "rate": "4.5",
+                "time_release": "May 28, 2023",
+                "title_manga": "thumb_5e95be7b09712",
+                "url_chapter": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467",
+                "url_manga": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/son-in-law-above-them-all/chapter-241/",
+                "id_manga": "https://mangakomi.io/manga/son-in-law-above-them-all/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/04/Son-In-Law-Above-Them-All-110x150.jpg",
+                "rate": "3.8",
+                "time_release": "May 27, 2023",
+                "title_manga": "Son-In-Law Above Them All",
+                "url_chapter": "http://14.225.7.221:7979/manga/son-in-law-above-them-all/chapter-241",
+                "url_manga": "http://14.225.7.221:7979/manga/son-in-law-above-them-all"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/chapter-353/",
+                "id_manga": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/Love-Me-Gently-Bossy-Ceo.jpg",
+                "rate": "4.1",
+                "time_release": "May 27, 2023",
+                "title_manga": "Love Me Gently, Bossy Ceo",
+                "url_chapter": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo/chapter-353",
+                "url_manga": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/marshal-is-jealous-everyday/chapter-326/",
+                "id_manga": "https://mangakomi.io/manga/marshal-is-jealous-everyday/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Marshal-Is-Jealous-Everyday.jpg",
+                "rate": "4.6",
+                "time_release": "May 26, 2023",
+                "title_manga": "Marshal Is Jealous Everyday",
+                "url_chapter": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday/chapter-326",
+                "url_manga": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/chapter-291/",
+                "id_manga": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/11/I-Might-Be-A-Fake-Cultivator.jpg",
+                "rate": "4.4",
+                "time_release": "May 26, 2023",
+                "title_manga": "I Might Be A Fake Cultivator",
+                "url_chapter": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator/chapter-291",
+                "url_manga": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-bride-of-barbaroi/chapter-16/",
+                "id_manga": "https://mangakomi.io/manga/the-bride-of-barbaroi/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/The-Bride-of-Barbaroi-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 26, 2023",
+                "title_manga": "The Bride of Barbaroi",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi/chapter-16",
+                "url_manga": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/cultivation-chat-group/chapter-548/",
+                "id_manga": "https://mangakomi.io/manga/cultivation-chat-group/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Cultivation-Chat-Group.jpg",
+                "rate": "4.1",
+                "time_release": "May 26, 2023",
+                "title_manga": "Cultivation Chat Group",
+                "url_chapter": "http://14.225.7.221:7979/manga/cultivation-chat-group/chapter-548",
+                "url_manga": "http://14.225.7.221:7979/manga/cultivation-chat-group"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": 3,
+        "name": "Recent Comics",
+        "data": [
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://de.ninemanga.com/chapter/Prunus%20Girl/453669.html",
+                "id_manga": "https://de.ninemanga.com/manga/Prunus+Girl.html",
+                "image_poster_link_goc": "https://img.wiemanga.com/files/img/logo/202306/202306142023022023.jpg",
+                "rate": "3.0",
+                "time_release": "Jun 14, 2023",
+                "title_manga": "Prunus Girl",
+                "url_chapter": "http://14.225.7.221:7979/manga/Prunus+Girl/453669",
+                "url_manga": "http://14.225.7.221:7979/manga/Prunus+Girl"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/otome-no-teikoku/chapter-271/",
+                "id_manga": "https://mangakomi.io/manga/otome-no-teikoku/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/12/thumb_5fc89d5c5a97d-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5fc89d5c5a97d",
+                "url_chapter": "http://14.225.7.221:7979/manga/otome-no-teikoku/chapter-271",
+                "url_manga": "http://14.225.7.221:7979/manga/otome-no-teikoku"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/chapter-339/",
+                "id_manga": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/02/thumb_5e40e2ac7b38a.jpg",
+                "rate": "4.6",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5e40e2ac7b38a",
+                "url_chapter": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls/chapter-339",
+                "url_manga": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/apocalyptic-super-system/chapter-386/",
+                "id_manga": "https://mangakomi.io/manga/apocalyptic-super-system/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/thumb_5f85739eaa34e.png",
+                "rate": "4.1",
+                "time_release": "May 31, 2023",
+                "title_manga": "apocalyptic super system",
+                "url_chapter": "http://14.225.7.221:7979/manga/apocalyptic-super-system/chapter-386",
+                "url_manga": "http://14.225.7.221:7979/manga/apocalyptic-super-system"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54/",
+                "id_manga": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/06/Im-a-Killer-but-Im-Thinking-of-Living-as-a-Princess-110x150.jpeg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "I’m a Killer but I’m Thinking of Living as a Princess",
+                "url_chapter": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54",
+                "url_manga": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/legal-cohabitation/chapter-74/",
+                "id_manga": "https://mangakomi.io/manga/legal-cohabitation/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/thumb_5df4654f16f46.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5df4654f16f46",
+                "url_chapter": "http://14.225.7.221:7979/manga/legal-cohabitation/chapter-74",
+                "url_manga": "http://14.225.7.221:7979/manga/legal-cohabitation"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/girl-crush/chapter-44/",
+                "id_manga": "https://mangakomi.io/manga/girl-crush/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/Girl-Crush-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Girl Crush",
+                "url_chapter": "http://14.225.7.221:7979/manga/girl-crush/chapter-44",
+                "url_manga": "http://14.225.7.221:7979/manga/girl-crush"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-world-after-the-fall/chapter-76/",
+                "id_manga": "https://mangakomi.io/manga/the-world-after-the-fall/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2022/02/The-World-After-the-Fall-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "The World After the Fall",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-world-after-the-fall/chapter-76",
+                "url_manga": "http://14.225.7.221:7979/manga/the-world-after-the-fall"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/silent-lover/chapter-152/",
+                "id_manga": "https://mangakomi.io/manga/silent-lover/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/05/Silent-Lover.jpg",
+                "rate": "4.9",
+                "time_release": "May 29, 2023",
+                "title_manga": "Silent Lover",
+                "url_chapter": "http://14.225.7.221:7979/manga/silent-lover/chapter-152",
+                "url_manga": "http://14.225.7.221:7979/manga/silent-lover"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/chapter-120/",
+                "id_manga": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/08/Rinjin-chan-ga-shinpai.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Rinjin-chan ga shinpai",
+                "url_chapter": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai/chapter-120",
+                "url_manga": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1/",
+                "id_manga": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/thumb_647550acbad5f-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "thumb_647550acbad5f",
+                "url_chapter": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1",
+                "url_manga": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1/",
+                "id_manga": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/Honyaku-no-Sainou-de-Ore-Dake-ga-Sekai-wo-Kaihen-Dekiru-Ken-Hazure-Sainou-Honyaku-de-Kizukeba-Sekai-Saikyou-ni-Nattemashita-110x150.jpg",
+                "rate": "0.0",
+                "time_release": "May 28, 2023",
+                "title_manga": "Honyaku no Sainou de Ore Dake ga Sekai wo Kaihen Dekiru Ken ~Hazure Sainou Honyaku de Kizukeba Sekai Saikyou ni Nattemashita~",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1",
+                "url_manga": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/chapter-87/",
+                "id_manga": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/07/The-Princess-Pretends-To-Be-Crazy-1-110x150.jpg",
+                "rate": "4.1",
+                "time_release": "May 28, 2023",
+                "title_manga": "The Princess Pretends To Be Crazy",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy/chapter-87",
+                "url_manga": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467/",
+                "id_manga": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/04/thumb_5e95be7b09712.jpg",
+                "rate": "4.5",
+                "time_release": "May 28, 2023",
+                "title_manga": "thumb_5e95be7b09712",
+                "url_chapter": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467",
+                "url_manga": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/son-in-law-above-them-all/chapter-241/",
+                "id_manga": "https://mangakomi.io/manga/son-in-law-above-them-all/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/04/Son-In-Law-Above-Them-All-110x150.jpg",
+                "rate": "3.8",
+                "time_release": "May 27, 2023",
+                "title_manga": "Son-In-Law Above Them All",
+                "url_chapter": "http://14.225.7.221:7979/manga/son-in-law-above-them-all/chapter-241",
+                "url_manga": "http://14.225.7.221:7979/manga/son-in-law-above-them-all"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/chapter-353/",
+                "id_manga": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/Love-Me-Gently-Bossy-Ceo.jpg",
+                "rate": "4.1",
+                "time_release": "May 27, 2023",
+                "title_manga": "Love Me Gently, Bossy Ceo",
+                "url_chapter": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo/chapter-353",
+                "url_manga": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/marshal-is-jealous-everyday/chapter-326/",
+                "id_manga": "https://mangakomi.io/manga/marshal-is-jealous-everyday/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Marshal-Is-Jealous-Everyday.jpg",
+                "rate": "4.6",
+                "time_release": "May 26, 2023",
+                "title_manga": "Marshal Is Jealous Everyday",
+                "url_chapter": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday/chapter-326",
+                "url_manga": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/chapter-291/",
+                "id_manga": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/11/I-Might-Be-A-Fake-Cultivator.jpg",
+                "rate": "4.4",
+                "time_release": "May 26, 2023",
+                "title_manga": "I Might Be A Fake Cultivator",
+                "url_chapter": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator/chapter-291",
+                "url_manga": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-bride-of-barbaroi/chapter-16/",
+                "id_manga": "https://mangakomi.io/manga/the-bride-of-barbaroi/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/The-Bride-of-Barbaroi-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 26, 2023",
+                "title_manga": "The Bride of Barbaroi",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi/chapter-16",
+                "url_manga": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/cultivation-chat-group/chapter-548/",
+                "id_manga": "https://mangakomi.io/manga/cultivation-chat-group/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Cultivation-Chat-Group.jpg",
+                "rate": "4.1",
+                "time_release": "May 26, 2023",
+                "title_manga": "Cultivation Chat Group",
+                "url_chapter": "http://14.225.7.221:7979/manga/cultivation-chat-group/chapter-548",
+                "url_manga": "http://14.225.7.221:7979/manga/cultivation-chat-group"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": 2,
+        "name": "Recent Comics",
+        "data": [
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://de.ninemanga.com/chapter/Prunus%20Girl/453669.html",
+                "id_manga": "https://de.ninemanga.com/manga/Prunus+Girl.html",
+                "image_poster_link_goc": "https://img.wiemanga.com/files/img/logo/202306/202306142023022023.jpg",
+                "rate": "3.0",
+                "time_release": "Jun 14, 2023",
+                "title_manga": "Prunus Girl",
+                "url_chapter": "http://14.225.7.221:7979/manga/Prunus+Girl/453669",
+                "url_manga": "http://14.225.7.221:7979/manga/Prunus+Girl"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/otome-no-teikoku/chapter-271/",
+                "id_manga": "https://mangakomi.io/manga/otome-no-teikoku/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/12/thumb_5fc89d5c5a97d-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5fc89d5c5a97d",
+                "url_chapter": "http://14.225.7.221:7979/manga/otome-no-teikoku/chapter-271",
+                "url_manga": "http://14.225.7.221:7979/manga/otome-no-teikoku"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/chapter-339/",
+                "id_manga": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/02/thumb_5e40e2ac7b38a.jpg",
+                "rate": "4.6",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5e40e2ac7b38a",
+                "url_chapter": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls/chapter-339",
+                "url_manga": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/apocalyptic-super-system/chapter-386/",
+                "id_manga": "https://mangakomi.io/manga/apocalyptic-super-system/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/thumb_5f85739eaa34e.png",
+                "rate": "4.1",
+                "time_release": "May 31, 2023",
+                "title_manga": "apocalyptic super system",
+                "url_chapter": "http://14.225.7.221:7979/manga/apocalyptic-super-system/chapter-386",
+                "url_manga": "http://14.225.7.221:7979/manga/apocalyptic-super-system"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54/",
+                "id_manga": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/06/Im-a-Killer-but-Im-Thinking-of-Living-as-a-Princess-110x150.jpeg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "I’m a Killer but I’m Thinking of Living as a Princess",
+                "url_chapter": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54",
+                "url_manga": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/legal-cohabitation/chapter-74/",
+                "id_manga": "https://mangakomi.io/manga/legal-cohabitation/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/thumb_5df4654f16f46.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5df4654f16f46",
+                "url_chapter": "http://14.225.7.221:7979/manga/legal-cohabitation/chapter-74",
+                "url_manga": "http://14.225.7.221:7979/manga/legal-cohabitation"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/girl-crush/chapter-44/",
+                "id_manga": "https://mangakomi.io/manga/girl-crush/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/Girl-Crush-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Girl Crush",
+                "url_chapter": "http://14.225.7.221:7979/manga/girl-crush/chapter-44",
+                "url_manga": "http://14.225.7.221:7979/manga/girl-crush"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-world-after-the-fall/chapter-76/",
+                "id_manga": "https://mangakomi.io/manga/the-world-after-the-fall/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2022/02/The-World-After-the-Fall-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "The World After the Fall",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-world-after-the-fall/chapter-76",
+                "url_manga": "http://14.225.7.221:7979/manga/the-world-after-the-fall"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/silent-lover/chapter-152/",
+                "id_manga": "https://mangakomi.io/manga/silent-lover/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/05/Silent-Lover.jpg",
+                "rate": "4.9",
+                "time_release": "May 29, 2023",
+                "title_manga": "Silent Lover",
+                "url_chapter": "http://14.225.7.221:7979/manga/silent-lover/chapter-152",
+                "url_manga": "http://14.225.7.221:7979/manga/silent-lover"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/chapter-120/",
+                "id_manga": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/08/Rinjin-chan-ga-shinpai.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Rinjin-chan ga shinpai",
+                "url_chapter": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai/chapter-120",
+                "url_manga": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1/",
+                "id_manga": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/thumb_647550acbad5f-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "thumb_647550acbad5f",
+                "url_chapter": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1",
+                "url_manga": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1/",
+                "id_manga": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/Honyaku-no-Sainou-de-Ore-Dake-ga-Sekai-wo-Kaihen-Dekiru-Ken-Hazure-Sainou-Honyaku-de-Kizukeba-Sekai-Saikyou-ni-Nattemashita-110x150.jpg",
+                "rate": "0.0",
+                "time_release": "May 28, 2023",
+                "title_manga": "Honyaku no Sainou de Ore Dake ga Sekai wo Kaihen Dekiru Ken ~Hazure Sainou Honyaku de Kizukeba Sekai Saikyou ni Nattemashita~",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1",
+                "url_manga": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/chapter-87/",
+                "id_manga": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/07/The-Princess-Pretends-To-Be-Crazy-1-110x150.jpg",
+                "rate": "4.1",
+                "time_release": "May 28, 2023",
+                "title_manga": "The Princess Pretends To Be Crazy",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy/chapter-87",
+                "url_manga": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467/",
+                "id_manga": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/04/thumb_5e95be7b09712.jpg",
+                "rate": "4.5",
+                "time_release": "May 28, 2023",
+                "title_manga": "thumb_5e95be7b09712",
+                "url_chapter": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467",
+                "url_manga": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/son-in-law-above-them-all/chapter-241/",
+                "id_manga": "https://mangakomi.io/manga/son-in-law-above-them-all/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/04/Son-In-Law-Above-Them-All-110x150.jpg",
+                "rate": "3.8",
+                "time_release": "May 27, 2023",
+                "title_manga": "Son-In-Law Above Them All",
+                "url_chapter": "http://14.225.7.221:7979/manga/son-in-law-above-them-all/chapter-241",
+                "url_manga": "http://14.225.7.221:7979/manga/son-in-law-above-them-all"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/chapter-353/",
+                "id_manga": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/Love-Me-Gently-Bossy-Ceo.jpg",
+                "rate": "4.1",
+                "time_release": "May 27, 2023",
+                "title_manga": "Love Me Gently, Bossy Ceo",
+                "url_chapter": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo/chapter-353",
+                "url_manga": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/marshal-is-jealous-everyday/chapter-326/",
+                "id_manga": "https://mangakomi.io/manga/marshal-is-jealous-everyday/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Marshal-Is-Jealous-Everyday.jpg",
+                "rate": "4.6",
+                "time_release": "May 26, 2023",
+                "title_manga": "Marshal Is Jealous Everyday",
+                "url_chapter": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday/chapter-326",
+                "url_manga": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/chapter-291/",
+                "id_manga": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/11/I-Might-Be-A-Fake-Cultivator.jpg",
+                "rate": "4.4",
+                "time_release": "May 26, 2023",
+                "title_manga": "I Might Be A Fake Cultivator",
+                "url_chapter": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator/chapter-291",
+                "url_manga": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-bride-of-barbaroi/chapter-16/",
+                "id_manga": "https://mangakomi.io/manga/the-bride-of-barbaroi/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/The-Bride-of-Barbaroi-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 26, 2023",
+                "title_manga": "The Bride of Barbaroi",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi/chapter-16",
+                "url_manga": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/cultivation-chat-group/chapter-548/",
+                "id_manga": "https://mangakomi.io/manga/cultivation-chat-group/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Cultivation-Chat-Group.jpg",
+                "rate": "4.1",
+                "time_release": "May 26, 2023",
+                "title_manga": "Cultivation Chat Group",
+                "url_chapter": "http://14.225.7.221:7979/manga/cultivation-chat-group/chapter-548",
+                "url_manga": "http://14.225.7.221:7979/manga/cultivation-chat-group"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": 2,
+        "name": "Recommended Comics",
+        "data": [
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://de.ninemanga.com/chapter/Prunus%20Girl/453669.html",
+                "id_manga": "https://de.ninemanga.com/manga/Prunus+Girl.html",
+                "image_poster_link_goc": "https://img.wiemanga.com/files/img/logo/202306/202306142023022023.jpg",
+                "rate": "3.0",
+                "time_release": "Jun 14, 2023",
+                "title_manga": "Prunus Girl",
+                "url_chapter": "http://14.225.7.221:7979/manga/Prunus+Girl/453669",
+                "url_manga": "http://14.225.7.221:7979/manga/Prunus+Girl"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/otome-no-teikoku/chapter-271/",
+                "id_manga": "https://mangakomi.io/manga/otome-no-teikoku/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/12/thumb_5fc89d5c5a97d-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5fc89d5c5a97d",
+                "url_chapter": "http://14.225.7.221:7979/manga/otome-no-teikoku/chapter-271",
+                "url_manga": "http://14.225.7.221:7979/manga/otome-no-teikoku"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/chapter-339/",
+                "id_manga": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/02/thumb_5e40e2ac7b38a.jpg",
+                "rate": "4.6",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5e40e2ac7b38a",
+                "url_chapter": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls/chapter-339",
+                "url_manga": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/apocalyptic-super-system/chapter-386/",
+                "id_manga": "https://mangakomi.io/manga/apocalyptic-super-system/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/thumb_5f85739eaa34e.png",
+                "rate": "4.1",
+                "time_release": "May 31, 2023",
+                "title_manga": "apocalyptic super system",
+                "url_chapter": "http://14.225.7.221:7979/manga/apocalyptic-super-system/chapter-386",
+                "url_manga": "http://14.225.7.221:7979/manga/apocalyptic-super-system"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54/",
+                "id_manga": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/06/Im-a-Killer-but-Im-Thinking-of-Living-as-a-Princess-110x150.jpeg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "I’m a Killer but I’m Thinking of Living as a Princess",
+                "url_chapter": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54",
+                "url_manga": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/legal-cohabitation/chapter-74/",
+                "id_manga": "https://mangakomi.io/manga/legal-cohabitation/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/thumb_5df4654f16f46.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5df4654f16f46",
+                "url_chapter": "http://14.225.7.221:7979/manga/legal-cohabitation/chapter-74",
+                "url_manga": "http://14.225.7.221:7979/manga/legal-cohabitation"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/girl-crush/chapter-44/",
+                "id_manga": "https://mangakomi.io/manga/girl-crush/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/Girl-Crush-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Girl Crush",
+                "url_chapter": "http://14.225.7.221:7979/manga/girl-crush/chapter-44",
+                "url_manga": "http://14.225.7.221:7979/manga/girl-crush"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-world-after-the-fall/chapter-76/",
+                "id_manga": "https://mangakomi.io/manga/the-world-after-the-fall/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2022/02/The-World-After-the-Fall-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "The World After the Fall",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-world-after-the-fall/chapter-76",
+                "url_manga": "http://14.225.7.221:7979/manga/the-world-after-the-fall"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/silent-lover/chapter-152/",
+                "id_manga": "https://mangakomi.io/manga/silent-lover/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/05/Silent-Lover.jpg",
+                "rate": "4.9",
+                "time_release": "May 29, 2023",
+                "title_manga": "Silent Lover",
+                "url_chapter": "http://14.225.7.221:7979/manga/silent-lover/chapter-152",
+                "url_manga": "http://14.225.7.221:7979/manga/silent-lover"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/chapter-120/",
+                "id_manga": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/08/Rinjin-chan-ga-shinpai.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Rinjin-chan ga shinpai",
+                "url_chapter": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai/chapter-120",
+                "url_manga": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1/",
+                "id_manga": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/thumb_647550acbad5f-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "thumb_647550acbad5f",
+                "url_chapter": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1",
+                "url_manga": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1/",
+                "id_manga": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/Honyaku-no-Sainou-de-Ore-Dake-ga-Sekai-wo-Kaihen-Dekiru-Ken-Hazure-Sainou-Honyaku-de-Kizukeba-Sekai-Saikyou-ni-Nattemashita-110x150.jpg",
+                "rate": "0.0",
+                "time_release": "May 28, 2023",
+                "title_manga": "Honyaku no Sainou de Ore Dake ga Sekai wo Kaihen Dekiru Ken ~Hazure Sainou Honyaku de Kizukeba Sekai Saikyou ni Nattemashita~",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1",
+                "url_manga": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/chapter-87/",
+                "id_manga": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/07/The-Princess-Pretends-To-Be-Crazy-1-110x150.jpg",
+                "rate": "4.1",
+                "time_release": "May 28, 2023",
+                "title_manga": "The Princess Pretends To Be Crazy",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy/chapter-87",
+                "url_manga": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467/",
+                "id_manga": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/04/thumb_5e95be7b09712.jpg",
+                "rate": "4.5",
+                "time_release": "May 28, 2023",
+                "title_manga": "thumb_5e95be7b09712",
+                "url_chapter": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467",
+                "url_manga": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/son-in-law-above-them-all/chapter-241/",
+                "id_manga": "https://mangakomi.io/manga/son-in-law-above-them-all/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/04/Son-In-Law-Above-Them-All-110x150.jpg",
+                "rate": "3.8",
+                "time_release": "May 27, 2023",
+                "title_manga": "Son-In-Law Above Them All",
+                "url_chapter": "http://14.225.7.221:7979/manga/son-in-law-above-them-all/chapter-241",
+                "url_manga": "http://14.225.7.221:7979/manga/son-in-law-above-them-all"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/chapter-353/",
+                "id_manga": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/Love-Me-Gently-Bossy-Ceo.jpg",
+                "rate": "4.1",
+                "time_release": "May 27, 2023",
+                "title_manga": "Love Me Gently, Bossy Ceo",
+                "url_chapter": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo/chapter-353",
+                "url_manga": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/marshal-is-jealous-everyday/chapter-326/",
+                "id_manga": "https://mangakomi.io/manga/marshal-is-jealous-everyday/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Marshal-Is-Jealous-Everyday.jpg",
+                "rate": "4.6",
+                "time_release": "May 26, 2023",
+                "title_manga": "Marshal Is Jealous Everyday",
+                "url_chapter": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday/chapter-326",
+                "url_manga": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/chapter-291/",
+                "id_manga": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/11/I-Might-Be-A-Fake-Cultivator.jpg",
+                "rate": "4.4",
+                "time_release": "May 26, 2023",
+                "title_manga": "I Might Be A Fake Cultivator",
+                "url_chapter": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator/chapter-291",
+                "url_manga": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-bride-of-barbaroi/chapter-16/",
+                "id_manga": "https://mangakomi.io/manga/the-bride-of-barbaroi/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/The-Bride-of-Barbaroi-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 26, 2023",
+                "title_manga": "The Bride of Barbaroi",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi/chapter-16",
+                "url_manga": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/cultivation-chat-group/chapter-548/",
+                "id_manga": "https://mangakomi.io/manga/cultivation-chat-group/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Cultivation-Chat-Group.jpg",
+                "rate": "4.1",
+                "time_release": "May 26, 2023",
+                "title_manga": "Cultivation Chat Group",
+                "url_chapter": "http://14.225.7.221:7979/manga/cultivation-chat-group/chapter-548",
+                "url_manga": "http://14.225.7.221:7979/manga/cultivation-chat-group"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": 2,
+        "name": "Coomingsoon Comics",
+        "data": [
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://de.ninemanga.com/chapter/Prunus%20Girl/453669.html",
+                "id_manga": "https://de.ninemanga.com/manga/Prunus+Girl.html",
+                "image_poster_link_goc": "https://img.wiemanga.com/files/img/logo/202306/202306142023022023.jpg",
+                "rate": "3.0",
+                "time_release": "Jun 14, 2023",
+                "title_manga": "Prunus Girl",
+                "url_chapter": "http://14.225.7.221:7979/manga/Prunus+Girl/453669",
+                "url_manga": "http://14.225.7.221:7979/manga/Prunus+Girl"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/otome-no-teikoku/chapter-271/",
+                "id_manga": "https://mangakomi.io/manga/otome-no-teikoku/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/12/thumb_5fc89d5c5a97d-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5fc89d5c5a97d",
+                "url_chapter": "http://14.225.7.221:7979/manga/otome-no-teikoku/chapter-271",
+                "url_manga": "http://14.225.7.221:7979/manga/otome-no-teikoku"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/chapter-339/",
+                "id_manga": "https://mangakomi.io/manga/infinite-apostles-and-twelve-war-girls/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/02/thumb_5e40e2ac7b38a.jpg",
+                "rate": "4.6",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5e40e2ac7b38a",
+                "url_chapter": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls/chapter-339",
+                "url_manga": "http://14.225.7.221:7979/manga/infinite-apostles-and-twelve-war-girls"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/apocalyptic-super-system/chapter-386/",
+                "id_manga": "https://mangakomi.io/manga/apocalyptic-super-system/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/thumb_5f85739eaa34e.png",
+                "rate": "4.1",
+                "time_release": "May 31, 2023",
+                "title_manga": "apocalyptic super system",
+                "url_chapter": "http://14.225.7.221:7979/manga/apocalyptic-super-system/chapter-386",
+                "url_manga": "http://14.225.7.221:7979/manga/apocalyptic-super-system"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54/",
+                "id_manga": "https://mangakomi.io/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/06/Im-a-Killer-but-Im-Thinking-of-Living-as-a-Princess-110x150.jpeg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "I’m a Killer but I’m Thinking of Living as a Princess",
+                "url_chapter": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess/chapter-54",
+                "url_manga": "http://14.225.7.221:7979/manga/im-a-killer-but-im-thinking-of-living-as-a-princess"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/legal-cohabitation/chapter-74/",
+                "id_manga": "https://mangakomi.io/manga/legal-cohabitation/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/thumb_5df4654f16f46.jpg",
+                "rate": "5.0",
+                "time_release": "May 31, 2023",
+                "title_manga": "thumb_5df4654f16f46",
+                "url_chapter": "http://14.225.7.221:7979/manga/legal-cohabitation/chapter-74",
+                "url_manga": "http://14.225.7.221:7979/manga/legal-cohabitation"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/girl-crush/chapter-44/",
+                "id_manga": "https://mangakomi.io/manga/girl-crush/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/Girl-Crush-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Girl Crush",
+                "url_chapter": "http://14.225.7.221:7979/manga/girl-crush/chapter-44",
+                "url_manga": "http://14.225.7.221:7979/manga/girl-crush"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-world-after-the-fall/chapter-76/",
+                "id_manga": "https://mangakomi.io/manga/the-world-after-the-fall/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2022/02/The-World-After-the-Fall-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "The World After the Fall",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-world-after-the-fall/chapter-76",
+                "url_manga": "http://14.225.7.221:7979/manga/the-world-after-the-fall"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/silent-lover/chapter-152/",
+                "id_manga": "https://mangakomi.io/manga/silent-lover/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/05/Silent-Lover.jpg",
+                "rate": "4.9",
+                "time_release": "May 29, 2023",
+                "title_manga": "Silent Lover",
+                "url_chapter": "http://14.225.7.221:7979/manga/silent-lover/chapter-152",
+                "url_manga": "http://14.225.7.221:7979/manga/silent-lover"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/chapter-120/",
+                "id_manga": "https://mangakomi.io/manga/rinjin-chan-ga-shinpai/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/08/Rinjin-chan-ga-shinpai.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "Rinjin-chan ga shinpai",
+                "url_chapter": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai/chapter-120",
+                "url_manga": "http://14.225.7.221:7979/manga/rinjin-chan-ga-shinpai"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1/",
+                "id_manga": "https://mangakomi.io/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/thumb_647550acbad5f-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 29, 2023",
+                "title_manga": "thumb_647550acbad5f",
+                "url_chapter": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken/chapter-1",
+                "url_manga": "http://14.225.7.221:7979/manga/isekai-de-haishin-katsudou-wo-shitara-tairyou-no-yandere-shinja-wo-umidashite-shimatta-ken"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1/",
+                "id_manga": "https://mangakomi.io/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2023/05/Honyaku-no-Sainou-de-Ore-Dake-ga-Sekai-wo-Kaihen-Dekiru-Ken-Hazure-Sainou-Honyaku-de-Kizukeba-Sekai-Saikyou-ni-Nattemashita-110x150.jpg",
+                "rate": "0.0",
+                "time_release": "May 28, 2023",
+                "title_manga": "Honyaku no Sainou de Ore Dake ga Sekai wo Kaihen Dekiru Ken ~Hazure Sainou Honyaku de Kizukeba Sekai Saikyou ni Nattemashita~",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest/chapter-1-1",
+                "url_manga": "http://14.225.7.221:7979/manga/the-story-of-how-i-can-change-the-world-with-my-skill-translation-how-i-used-translation-to-become-the-worlds-strongest"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/chapter-87/",
+                "id_manga": "https://mangakomi.io/manga/the-princess-pretends-to-be-crazy/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/07/The-Princess-Pretends-To-Be-Crazy-1-110x150.jpg",
+                "rate": "4.1",
+                "time_release": "May 28, 2023",
+                "title_manga": "The Princess Pretends To Be Crazy",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy/chapter-87",
+                "url_manga": "http://14.225.7.221:7979/manga/the-princess-pretends-to-be-crazy"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467/",
+                "id_manga": "https://mangakomi.io/manga/soul-land-iiithe-legend-of-the-dragon-king/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/04/thumb_5e95be7b09712.jpg",
+                "rate": "4.5",
+                "time_release": "May 28, 2023",
+                "title_manga": "thumb_5e95be7b09712",
+                "url_chapter": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king/chapter-467",
+                "url_manga": "http://14.225.7.221:7979/manga/soul-land-iiithe-legend-of-the-dragon-king"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/son-in-law-above-them-all/chapter-241/",
+                "id_manga": "https://mangakomi.io/manga/son-in-law-above-them-all/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/04/Son-In-Law-Above-Them-All-110x150.jpg",
+                "rate": "3.8",
+                "time_release": "May 27, 2023",
+                "title_manga": "Son-In-Law Above Them All",
+                "url_chapter": "http://14.225.7.221:7979/manga/son-in-law-above-them-all/chapter-241",
+                "url_manga": "http://14.225.7.221:7979/manga/son-in-law-above-them-all"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/chapter-353/",
+                "id_manga": "https://mangakomi.io/manga/love-me-gently-bossy-ceo/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/10/Love-Me-Gently-Bossy-Ceo.jpg",
+                "rate": "4.1",
+                "time_release": "May 27, 2023",
+                "title_manga": "Love Me Gently, Bossy Ceo",
+                "url_chapter": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo/chapter-353",
+                "url_manga": "http://14.225.7.221:7979/manga/love-me-gently-bossy-ceo"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/marshal-is-jealous-everyday/chapter-326/",
+                "id_manga": "https://mangakomi.io/manga/marshal-is-jealous-everyday/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Marshal-Is-Jealous-Everyday.jpg",
+                "rate": "4.6",
+                "time_release": "May 26, 2023",
+                "title_manga": "Marshal Is Jealous Everyday",
+                "url_chapter": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday/chapter-326",
+                "url_manga": "http://14.225.7.221:7979/manga/marshal-is-jealous-everyday"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/chapter-291/",
+                "id_manga": "https://mangakomi.io/manga/i-might-be-a-fake-cultivator/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2020/11/I-Might-Be-A-Fake-Cultivator.jpg",
+                "rate": "4.4",
+                "time_release": "May 26, 2023",
+                "title_manga": "I Might Be A Fake Cultivator",
+                "url_chapter": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator/chapter-291",
+                "url_manga": "http://14.225.7.221:7979/manga/i-might-be-a-fake-cultivator"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/the-bride-of-barbaroi/chapter-16/",
+                "id_manga": "https://mangakomi.io/manga/the-bride-of-barbaroi/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2021/01/The-Bride-of-Barbaroi-110x150.jpg",
+                "rate": "5.0",
+                "time_release": "May 26, 2023",
+                "title_manga": "The Bride of Barbaroi",
+                "url_chapter": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi/chapter-16",
+                "url_manga": "http://14.225.7.221:7979/manga/the-bride-of-barbaroi"
+            },
+            {
+                "chapter_new": "Chapter ...",
+                "id_chapter": "https://mangakomi.io/manga/cultivation-chat-group/chapter-548/",
+                "id_manga": "https://mangakomi.io/manga/cultivation-chat-group/",
+                "image_poster_link_goc": "https://mangakomi.io/wp-content/uploads/2019/12/Cultivation-Chat-Group.jpg",
+                "rate": "4.1",
+                "time_release": "May 26, 2023",
+                "title_manga": "Cultivation Chat Group",
+                "url_chapter": "http://14.225.7.221:7979/manga/cultivation-chat-group/chapter-548",
+                "url_manga": "http://14.225.7.221:7979/manga/cultivation-chat-group"
+            }
+        ]
+    }
+]
+
+
+
+
+

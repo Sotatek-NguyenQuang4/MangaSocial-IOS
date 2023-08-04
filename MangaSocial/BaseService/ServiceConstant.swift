@@ -11,6 +11,8 @@ struct Constant {
     struct Server {
         static let baseAPIURL = Configs.share.env.baseURL
         static let imgAPIURL = Configs.share.env.imgAPIURL
+        static let demoApiURL = Configs.share.env.demoApi
+
     }
 }
 

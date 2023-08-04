@@ -7,9 +7,10 @@
 
 import UIKit
 
-class GenresViewController: UIViewController {
+class GenresViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        hideNavigationBar()
     }
 }

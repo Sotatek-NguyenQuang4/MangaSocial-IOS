@@ -31,4 +31,8 @@ extension Enviroment {
             return "https://api.imgbb.com/"
         }
     }
+    
+    var demoApi: String {
+        "https://raw.githubusercontent.com/DiemTran3006/Api/main/json.geojson"
+    }
 }

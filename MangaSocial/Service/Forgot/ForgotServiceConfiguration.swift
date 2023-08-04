@@ -6,56 +6,62 @@
 //
 
 import Foundation
-//
-//enum ForgotServiceConfiguration {
-//    case forgot(email:String)
-//}
-//
-//extension ForgotServiceConfiguration: Configuration {
-//    
-//    var baseURL: String {
-//        switch self {
-//        case .forgot:
-//            return Constant.Server.baseAPIURL
-//            
-//        }
-//    }
-//    
-//    var path: String {
-//        switch self {
-//        case .forgot:
-//            return "forgot"
-//        }
-//    }
-//    
-////    var method: HTTPMethod {
-////        switch self {
-////        case .forgot:
-////            return .P
-////            
-////        }
-////    }
-//    
-//    var task: Task {
-//        switch self {
-//        case .forgot(let email):
-//            let param = ["email": email]
-//            return .requestParameters(parameters: param)
-//        }
-//    }
-//    
-//    var headers: [String : String]? {
-//        switch self {
-//        case .forgot:
-//            return [:]
-//        }
-//    }
-//    
-//    var data: Data? {
-//        switch self {
-//        case .forgot:
-//            return nil
-//            
-//        }
-//    }
-//}
+
+enum ForgotServiceConfiguration {
+    case forgot(email:String,
+                password:String,
+                confirmpassword:String)
+}
+
+extension ForgotServiceConfiguration: Configuration {
+    
+    var baseURL: String {
+        switch self {
+        case .forgot:
+            return Constant.Server.baseAPIURL
+            
+        }
+    }
+    
+    var path: String {
+        switch self {
+        case .forgot:
+            return "forgot-password"
+        }
+    }
+    
+    var method: HTTPMethod {
+        switch self {
+        case .forgot:
+            return .patch
+
+        }
+    }
+    
+    var task: Task {
+        switch self {
+        case .forgot(let email,
+                     let password,
+                     let confirmpassword):
+            let param = ["email": email,
+                         "password": password,
+                         "confirmpassword": confirmpassword]
+            return .requestParameters(parameters: param)
+        }
+    }
+    
+    var headers: [String : String]? {
+        switch self {
+        case .forgot:
+            return [:]
+        }
+    }
+    
+    var data: Data? {
+        switch self {
+        case .forgot:
+            return nil
+            
+        }
+    }
+}

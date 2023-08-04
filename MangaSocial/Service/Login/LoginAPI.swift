@@ -15,8 +15,8 @@ class LoginAPI: BaseAPI<LoginServiceConfiguration> {
                completionHandler: @escaping (Result<LoginModel, ServiceError>) -> Void) {
         fetchData(configuration: .login(email: email,
                                         password: password),
-                  responseType: LoginModel.self) { result in
-            completionHandler(result)
+                                        responseType: LoginModel.self) { result in
+                                        completionHandler(result)
         }
     }
 }

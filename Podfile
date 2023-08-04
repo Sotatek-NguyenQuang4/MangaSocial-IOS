@@ -16,6 +16,8 @@ target 'MangaSocial' do
 
   # Network
   pod 'AlamofireImage', '~> 4.1'
+  pod "UPCarouselFlowLayout" 
+
   
   
 end

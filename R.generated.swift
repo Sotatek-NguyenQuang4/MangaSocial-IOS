@@ -116,9 +116,12 @@ struct _R {
     var placeholder: RswiftResources.ColorResource { .init(name: "placeholder", path: [], bundle: bundle) }
   }
 
-  /// This `_R.image` struct is generated, and contains static references to 9 images.
+  /// This `_R.image` struct is generated, and contains static references to 17 images.
   struct image {
     let bundle: Foundation.Bundle
+
+    /// Image `Image.anime`.
+    var imageAnime: RswiftResources.ImageResource { .init(name: "Image.anime", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `ico.tabbar.genres`.
     var icoTabbarGenres: RswiftResources.ImageResource { .init(name: "ico.tabbar.genres", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
@@ -132,17 +135,38 @@ struct _R {
     /// Image `ico.tabbar.profile`.
     var icoTabbarProfile: RswiftResources.ImageResource { .init(name: "ico.tabbar.profile", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
+    /// Image `icon.add`.
+    var iconAdd: RswiftResources.ImageResource { .init(name: "icon.add", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
     /// Image `icon.hidden.password`.
     var iconHiddenPassword: RswiftResources.ImageResource { .init(name: "icon.hidden.password", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
+    /// Image `icon.pop`.
+    var iconPop: RswiftResources.ImageResource { .init(name: "icon.pop", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `icon.search`.
+    var iconSearch: RswiftResources.ImageResource { .init(name: "icon.search", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `icon.setting`.
+    var iconSetting: RswiftResources.ImageResource { .init(name: "icon.setting", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
     /// Image `icon.show.password`.
     var iconShowPassword: RswiftResources.ImageResource { .init(name: "icon.show.password", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `icon.star`.
+    var iconStar: RswiftResources.ImageResource { .init(name: "icon.star", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `icons8-back-64-2 1`.
     var icons8Back6421: RswiftResources.ImageResource { .init(name: "icons8-back-64-2 1", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `icons8-email-100 1`.
     var icons8Email1001: RswiftResources.ImageResource { .init(name: "icons8-email-100 1", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `image.avata`.
+    var imageAvata: RswiftResources.ImageResource { .init(name: "image.avata", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `image.chapter`.
+    var imageChapter: RswiftResources.ImageResource { .init(name: "image.chapter", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `img.login.bg`.
     var imgLoginBg: RswiftResources.ImageResource { .init(name: "img.login.bg", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
@@ -237,7 +261,7 @@ struct _R {
     }
   }
 
-  /// This `_R.file` struct is generated, and contains static references to 9 resource files.
+  /// This `_R.file` struct is generated, and contains static references to 10 resource files.
   struct file {
     let bundle: Foundation.Bundle
 
@@ -267,11 +291,17 @@ struct _R {
 
     /// Resource file `Inter-Thin.ttf`.
     var interThinTtf: RswiftResources.FileResource { .init(name: "Inter-Thin", pathExtension: "ttf", bundle: bundle, locale: LocaleReference.none) }
+
+    /// Resource file `json.geojson`.
+    var jsonGeojson: RswiftResources.FileResource { .init(name: "json", pathExtension: "geojson", bundle: bundle, locale: LocaleReference.none) }
   }
 
-  /// This `_R.nib` struct is generated, and contains static references to 7 nibs.
+  /// This `_R.nib` struct is generated, and contains static references to 12 nibs.
   struct nib {
     let bundle: Foundation.Bundle
+
+    /// Nib `DetailViewController`.
+    var detailViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "DetailViewController", bundle: bundle) }
 
     /// Nib `ForgotViewController`.
     var forgotViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "ForgotViewController", bundle: bundle) }
@@ -294,15 +324,35 @@ struct _R {
     /// Nib `RegisterViewController`.
     var registerViewController: RswiftResources.NibReference<UIKit.UIView> { .init(name: "RegisterViewController", bundle: bundle) }
 
+    /// Nib `ReleasedComicCollectionViewCell`.
+    var releasedComicCollectionViewCell: RswiftResources.NibReference<ReleasedComicCollectionViewCell> { .init(name: "ReleasedComicCollectionViewCell", bundle: bundle) }
+
+    /// Nib `ReleasedComicTableViewCell`.
+    var releasedComicTableViewCell: RswiftResources.NibReference<ReleasedComicTableViewCell> { .init(name: "ReleasedComicTableViewCell", bundle: bundle) }
+
+    /// Nib `SwordplayCollectionViewCell`.
+    var swordplayCollectionViewCell: RswiftResources.NibReference<SwordplayCollectionViewCell> { .init(name: "SwordplayCollectionViewCell", bundle: bundle) }
+
+    /// Nib `SwordplayTableViewCell`.
+    var swordplayTableViewCell: RswiftResources.NibReference<SwordplayTableViewCell> { .init(name: "SwordplayTableViewCell", bundle: bundle) }
+
     func validate() throws {
+      if UIKit.UIImage(named: "icon.add", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icon.add' is used in nib 'DetailViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "icon.pop", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icon.pop' is used in nib 'DetailViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "icon.star", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icon.star' is used in nib 'DetailViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "image.chapter", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'image.chapter' is used in nib 'DetailViewController', but couldn't be loaded.") }
       if UIKit.UIImage(named: "icons8-back-64-2 1", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icons8-back-64-2 1' is used in nib 'ForgotViewController', but couldn't be loaded.") }
       if UIKit.UIImage(named: "icons8-email-100 1", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icons8-email-100 1' is used in nib 'ForgotViewController', but couldn't be loaded.") }
       if UIKit.UIImage(named: "img.login.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'img.login.bg' is used in nib 'ForgotViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "main.disable", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'main.disable' is used in nib 'ForgotViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "main.input.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'main.input.bg' is used in nib 'ForgotViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "placeholder", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'placeholder' is used in nib 'ForgotViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "icon.setting", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icon.setting' is used in nib 'GenresViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "image.avata", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'image.avata' is used in nib 'GenresViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "icon.search", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icon.search' is used in nib 'HomeViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "icon.setting", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'icon.setting' is used in nib 'HomeViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "image.avata", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'image.avata' is used in nib 'HomeViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "mainBg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainBg' is used in nib 'HomeViewController', but couldn't be loaded.") }
-      if UIKit.UIColor(named: "mainText", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainText' is used in nib 'HomeViewController', but couldn't be loaded.") }
       if UIKit.UIImage(named: "img.login.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'img.login.bg' is used in nib 'LoginViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "main.input.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'main.input.bg' is used in nib 'LoginViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "main.input.text", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'main.input.text' is used in nib 'LoginViewController', but couldn't be loaded.") }
@@ -311,6 +361,9 @@ struct _R {
       if UIKit.UIColor(named: "main.input.bg", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'main.input.bg' is used in nib 'RegisterViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "main.input.text", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'main.input.text' is used in nib 'RegisterViewController', but couldn't be loaded.") }
       if UIKit.UIColor(named: "mainText", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainText' is used in nib 'RegisterViewController', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "Image.anime", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'Image.anime' is used in nib 'ReleasedComicCollectionViewCell', but couldn't be loaded.") }
+      if UIKit.UIColor(named: "mainOrange", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Color named 'mainOrange' is used in nib 'ReleasedComicTableViewCell', but couldn't be loaded.") }
+      if UIKit.UIImage(named: "Image.anime", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'Image.anime' is used in nib 'SwordplayCollectionViewCell', but couldn't be loaded.") }
     }
   }
 
