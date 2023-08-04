@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -100,7 +100,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tGK-F1-fF7">
-                    <rect key="frame" x="16" y="184" width="377" height="634"/>
+                    <rect key="frame" x="0.0" y="184" width="393" height="634"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
@@ -116,7 +116,7 @@
                 <constraint firstItem="gca-Jo-FXT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="kbr-hm-cpq"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="tGK-F1-fF7" secondAttribute="bottom" id="lPm-tx-P5u"/>
                 <constraint firstItem="tGK-F1-fF7" firstAttribute="top" secondItem="gca-Jo-FXT" secondAttribute="bottom" constant="25" id="mNe-ld-L9A"/>
-                <constraint firstItem="tGK-F1-fF7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="pb5-Jg-8qk"/>
+                <constraint firstItem="tGK-F1-fF7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pb5-Jg-8qk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gca-Jo-FXT" secondAttribute="trailing" constant="20" id="rCD-JR-rVs"/>
             </constraints>
             <point key="canvasLocation" x="51" y="20"/>

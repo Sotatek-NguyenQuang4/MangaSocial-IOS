@@ -26,7 +26,6 @@ class MainTabBarController: UITabBarController {
         super.viewDidLayoutSubviews()
         guard let window = UIApplication.shared.mainKeyWindow else { return }
         let newHeight = 75 + window.safeAreaInsets.bottom
-        print(newHeight)
         tabBar.frame.size.height = newHeight
         tabBar.frame.origin.y = view.frame.height - newHeight
     }

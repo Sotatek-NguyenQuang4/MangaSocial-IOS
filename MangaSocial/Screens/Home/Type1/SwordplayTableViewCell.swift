@@ -16,6 +16,7 @@ class SwordplayTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        selectionStyle = .none
         myCollectionViewSwordplay.dataSource = self
         myCollectionViewSwordplay.delegate = self
         myCollectionViewSwordplay.register(.init(nibName: "SwordplayCollectionViewCell", bundle: nil),

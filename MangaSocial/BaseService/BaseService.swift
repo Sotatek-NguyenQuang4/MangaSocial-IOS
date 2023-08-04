@@ -98,7 +98,6 @@ class BaseAPI<T: Configuration> {
             let postString = self.getPostString(params: parameters.0)
             request.httpBody = postString.data(using: .utf8)
         }
-        print(request.url)
         let dataTask = URLSession.shared.dataTask(with: request as URLRequest,
                                                   completionHandler: { data, response, error in
             DispatchQueue.main.async {

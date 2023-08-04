@@ -25,7 +25,7 @@ class HomeViewController: UIViewController {
             hideCustomeIndicator()
             switch resuslt {
             case .success(let success):
-                self.data1 = success
+                self.data1 = success.filter { $0.type != 3 }
                 self.myTable.reloadData()
             case .failure(let failure):
                 print(failure)
